@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "background": "#f9f9fb",
+              "on-secondary-fixed": "#1c075a",
+              "surface": "#f9f9fb",
+              "secondary": "#6053a0",
+              "secondary-fixed-dim": "#cabeff",
+              "surface-variant": "#e2e2e4",
+              "on-error": "#ffffff",
+              "surface-tint": "#13696a",
+              "outline": "#6f7979",
+              "outline-variant": "#bec9c8",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-fixed-dim": "#ffb3af",
+              "primary": "#006162",
+              "surface-container": "#eeeef0",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#f0f0f2",
+              "on-surface": "#1a1c1d",
+              "on-tertiary": "#ffffff",
+              "primary-fixed-dim": "#89d3d4",
+              "on-primary-fixed": "#002020",
+              "surface-container-high": "#e8e8ea",
+              "on-tertiary-fixed-variant": "#8c151e",
+              "inverse-surface": "#2f3132",
+              "surface-bright": "#f9f9fb",
+              "error": "#ba1a1a",
+              "on-error-container": "#93000a",
+              "secondary-container": "#b9abff",
+              "on-surface-variant": "#3f4949",
+              "surface-dim": "#d9dadc",
+              "on-background": "#1a1c1d",
+              "on-secondary-container": "#493c87",
+              "primary-container": "#2c7a7b",
+              "on-primary": "#ffffff",
+              "surface-container-highest": "#e2e2e4",
+              "secondary-fixed": "#e6deff",
+              "on-tertiary-fixed": "#410005",
+              "error-container": "#ffdad6",
+              "on-primary-container": "#c1ffff",
+              "on-primary-fixed-variant": "#004f50",
+              "tertiary": "#a3272c",
+              "primary-fixed": "#a5eff0",
+              "tertiary-fixed": "#ffdad7",
+              "inverse-primary": "#89d3d4",
+              "tertiary-container": "#c54042",
+              "on-tertiary-container": "#fff0ef",
+              "on-secondary-fixed-variant": "#483b86",
+              "surface-container-low": "#f3f3f5"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface min-h-screen pb-32">
+<header class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl border-b border-slate-200/20 flex justify-between items-center h-[56px] px-4 w-full">
+<div class="flex items-center gap-3">
+<button class="p-2 hover:bg-slate-100/50 rounded-full transition-all duration-200">
+<span class="material-symbols-outlined text-teal-700">menu</span>
+</button>
+<span class="text-lg font-medium text-slate-900 tracking-tight">ReadyAid</span>
+</div>
+<div class="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center overflow-hidden">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="portrait of a young man with a friendly expression in a professional studio setting with soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8O9l7P0fHxNTqRKep1tHPftutQlZNKmOlHmb3DqoGUsSrdNzKyHxYn9UTeRS8a6B2WdJVhpagZPmfYRbbCxsb77Vg0Z1eSEa2t7efnGzEoqePsbD1aBTnhrF4luR5z_L-VrpKqICs4IuJ9cw6EWl4m4fSWQWpbWP6JA16ngIA6zdo6RARA__G0cG06J9NADZM3u-1WOcJzDbN7qMmapHsLMt4neYSwJ-iDVH3WSsr2Y-E5B2c0fAyxpohekuO6cVhBqQiyL_CTd9L"/>
+</div>
+</header>
+<main class="pt-20 px-5 max-w-2xl mx-auto space-y-8">
+<div class="flex flex-col items-end w-full">
+<div class="bg-primary-container text-white px-5 py-3.5 rounded-2xl rounded-tr-none max-w-[85%] shadow-sm">
+<p class="text-[14px] leading-relaxed">Cut my finger with a knife</p>
+</div>
+<span class="text-[10px] text-slate-400 mt-1 mr-1 uppercase tracking-widest">Sent 10:24 AM</span>
+</div>
+<div class="flex flex-col items-start w-full">
+<div class="flex items-center gap-2 mb-2 ml-1">
+<div class="w-5 h-5 bg-primary rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-[12px] text-white" style="font-variation-settings: 'FILL' 1;">medical_services</span>
+</div>
+<span class="text-[11px] text-secondary font-medium tracking-wide">ReadyAid</span>
+</div>
+<div class="bg-white border border-[#EBEBF0] rounded-2xl p-5 w-full shadow-sm space-y-4">
+<div class="bg-[#FFF9E6] border-l-[3px] border-[#FFB800] p-4 rounded-r-lg">
+<h3 class="text-[12px] font-medium text-[#856404] uppercase tracking-wider mb-2">Check first</h3>
+<ul class="space-y-1.5">
+<li class="flex items-start gap-2 text-[14px] text-[#856404]/90">
+<span class="mt-1.5 w-1 h-1 rounded-full bg-[#856404]/40 flex-shrink-0"></span>
+                            Check for any foreign objects embedded in the wound.
+                        </li>
+<li class="flex items-start gap-2 text-[14px] text-[#856404]/90">
+<span class="mt-1.5 w-1 h-1 rounded-full bg-[#856404]/40 flex-shrink-0"></span>
+                            Assess if the bleeding is spurting or heavy.
+                        </li>
+</ul>
+</div>
+<div class="bg-[#F0FBF5] border-l-[3px] border-[#34D399] p-4 rounded-r-lg">
+<h3 class="text-[12px] font-medium text-[#065F46] uppercase tracking-wider mb-2">Do this now</h3>
+<div class="space-y-3">
+<div class="flex items-center gap-3">
+<span class="w-6 h-6 flex items-center justify-center rounded-full bg-[#34D399]/20 text-[12px] font-medium text-[#065F46]">1</span>
+<p class="text-[14px] text-[#065F46]/90">Apply firm, direct pressure with a clean cloth.</p>
+</div>
+<div class="flex items-center gap-3">
+<span class="w-6 h-6 flex items-center justify-center rounded-full bg-[#34D399]/20 text-[12px] font-medium text-[#065F46]">2</span>
+<p class="text-[14px] text-[#065F46]/90">Clean the area with water and mild soap once bleeding slows.</p>
+</div>
+<div class="flex items-center gap-3">
+<span class="w-6 h-6 flex items-center justify-center rounded-full bg-[#34D399]/20 text-[12px] font-medium text-[#065F46]">3</span>
+<p class="text-[14px] text-[#065F46]/90">Apply an antibiotic ointment and a sterile bandage.</p>
+</div>
+</div>
+</div>
+<div class="bg-[#FFF0F0] border-l-[3px] border-[#F87171] p-4 rounded-r-lg">
+<h3 class="text-[12px] font-medium text-[#991B1B] uppercase tracking-wider mb-2">Do not</h3>
+<ul class="space-y-1.5">
+<li class="flex items-start gap-2 text-[14px] text-[#991B1B]/90">
+<span class="mt-1.5 w-1 h-1 rounded-full bg-[#F87171]/40 flex-shrink-0"></span>
+                            Do not remove any deeply embedded objects.
+                        </li>
+<li class="flex items-start gap-2 text-[14px] text-[#991B1B]/90">
+<span class="mt-1.5 w-1 h-1 rounded-full bg-[#F87171]/40 flex-shrink-0"></span>
+                            Do not use a tourniquet unless bleeding is life-threatening.
+                        </li>
+</ul>
+</div>
+<div class="bg-[#FFF5EC] border-l-[3px] border-[#FB923C] p-4 rounded-r-lg">
+<h3 class="text-[12px] font-medium text-[#9A3412] uppercase tracking-wider mb-2">When to call emergency</h3>
+<ul class="space-y-1.5">
+<li class="flex items-start gap-2 text-[14px] text-[#9A3412]/90">
+<span class="mt-1.5 w-1 h-1 rounded-full bg-[#FB923C]/40 flex-shrink-0"></span>
+                            If bleeding doesn't stop after 10 minutes of direct pressure.
+                        </li>
+<li class="flex items-start gap-2 text-[14px] text-[#9A3412]/90">
+<span class="mt-1.5 w-1 h-1 rounded-full bg-[#FB923C]/40 flex-shrink-0"></span>
+                            If the wound is deep, gaping, or shows muscle/bone.
+                        </li>
+</ul>
+</div>
+<div class="bg-[#F5F3FF] border-l-[3px] border-[#A78BFA] p-4 rounded-r-lg">
+<h3 class="text-[12px] font-medium text-[#5B21B6] uppercase tracking-wider mb-1">Note for you</h3>
+<p class="text-[14px] text-[#5B21B6]/90 italic">Since you are on blood thinners, you must apply pressure for twice as long as usual.</p>
+</div>
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="bg-[#F5F5F7] border border-[#EBEBF0] rounded-full px-3 py-1 text-[10px] text-slate-500 font-medium">ERC 2025</span>
+<span class="bg-[#F5F5F7] border border-[#EBEBF0] rounded-full px-3 py-1 text-[10px] text-slate-500 font-medium">Red Cross</span>
+<span class="bg-[#F5F5F7] border border-[#EBEBF0] rounded-full px-3 py-1 text-[10px] text-slate-500 font-medium">St John Ambulance</span>
+</div>
+</div>
+</div>
+</main>
+<div class="fixed bottom-16 left-0 w-full px-4 pb-4">
+<div class="max-w-2xl mx-auto flex items-center bg-white rounded-full shadow-lg border border-slate-200/50 p-1.5 pl-5">
+<input class="flex-grow bg-transparent border-none focus:ring-0 text-sm text-slate-700 placeholder-slate-400" placeholder="Ask ReadyAid..." type="text"/>
+<button class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white transition-transform active:scale-95">
+<span class="material-symbols-outlined text-[20px]">send</span>
+</button>
+</div>
+</div>
+<nav class="fixed bottom-0 left-0 w-full h-[64px] flex justify-around items-center px-2 pb-safe bg-white border-t border-slate-200 z-50">
+<div class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 hover:text-teal-600 transition-transform scale-95 active:scale-90">
+<span class="material-symbols-outlined mb-0.5">medical_services</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide">Guides</span>
+</div>
+<div class="flex flex-col items-center justify-center bg-teal-50 text-teal-700 rounded-2xl px-5 py-1 transition-transform scale-95 active:scale-90">
+<span class="material-symbols-outlined mb-0.5" style="font-variation-settings: 'FILL' 1;">emergency</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide">Emergency</span>
+</div>
+<div class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 hover:text-teal-600 transition-transform scale-95 active:scale-90">
+<span class="material-symbols-outlined mb-0.5">wounds_injuries</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide">Supplies</span>
+</div>
+<div class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 hover:text-teal-600 transition-transform scale-95 active:scale-90">
+<span class="material-symbols-outlined mb-0.5">person</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide">Profile</span>
+</div>
+</nav>
+</body></html>

@@ -1,0 +1,80 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.2/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :app
+WARNING: The option setting 'android.defaults.buildfeatures.buildconfig=true' is deprecated.
+The current default is 'false'.
+It will be removed in version 9.0 of the Android Gradle plugin.
+You can resolve this warning in Android Studio via `Refactor` > `Migrate BuildConfig to Gradle Build Files`
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugResValues
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugResources
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:mergeLibDexDebug
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+> Task :app:mergeExtDexDebug
+> Task :app:kspDebugKotlin
+
+> Task :app:compileDebugKotlin
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/core/navigation/NavGraph.kt:77:37 Parameter 'query' is never used, could be renamed to _
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/chat/ChatScreen.kt:210:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/chat/ChatScreen.kt:400:44 'outlinedTextFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `OutlinedTextFieldDefaults.colors` with additional parameters tocontrol container color based on state.
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/chat/ChatScreen.kt:414:72 'Send: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Send
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/firstaid/detail/GuideDetailScreen.kt:57:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/firstaid/detail/GuideDetailScreen.kt:100:53 'VolumeUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeUp
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/firstaid/detail/GuideDetailScreen.kt:133:97 'VolumeUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeUp
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/firstaid/detail/GuideDetailScreen.kt:189:36 'Chat: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Chat
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/firstaid/list/GuideListScreen.kt:90:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/firstaid/list/GuideListScreen.kt:112:44 'outlinedTextFieldColors(Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., TextSelectionColors = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ..., Color = ...): TextFieldColors' is deprecated. Renamed to `OutlinedTextFieldDefaults.colors` with additional parameters tocontrol container color based on state.
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/home/HomeScreen.kt:131:42 'Chat: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.Chat
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/myinfo/MyInfoScreen.kt:84:9 Variable 'saveSuccess' is never used
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/myinfo/MyInfoScreen.kt:87:9 Variable 'callLauncher' is never used
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/myinfo/MyInfoScreen.kt:87:105 Parameter 'granted' is never used, could be renamed to _
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/myinfo/MyInfoScreen.kt:102:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/onboarding/OnboardingScreen.kt:110:17 'LinearProgressIndicator(Float, Modifier = ..., Color = ..., Color = ..., StrokeCap = ...): Unit' is deprecated. Use the overload that takes `progress` as a lambda
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/onboarding/OnboardingScreen.kt:305:5 'Divider(Modifier = ..., Dp = ..., Color = ...): Unit' is deprecated. Renamed to HorizontalDivider
+w: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/sos/SosScreen.kt:149:44 'ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack
+
+> Task :app:compileDebugJavaWithJavac
+> Task :app:hiltAggregateDepsDebug
+> Task :app:hiltJavaCompileDebug
+> Task :app:processDebugJavaRes
+> Task :app:transformDebugClassesWithAsm
+> Task :app:mergeDebugJavaResource
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics
+> Task :app:mergeProjectDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 49s
+38 actionable tasks: 38 executed

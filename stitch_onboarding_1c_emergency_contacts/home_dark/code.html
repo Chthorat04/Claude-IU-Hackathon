@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ReadyAid - Emergency Assistance</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "background": "#121212",
+                        "on-secondary-fixed": "#1c075a",
+                        "surface": "#121212",
+                        "secondary": "#6053a0",
+                        "secondary-fixed-dim": "#cabeff",
+                        "surface-variant": "#e2e2e4",
+                        "on-error": "#ffffff",
+                        "surface-tint": "#13696a",
+                        "outline": "#6f7979",
+                        "outline-variant": "rgba(235, 235, 240, 0.2)",
+                        "surface-container-lowest": "#1e1e1e",
+                        "tertiary-fixed-dim": "#ffb3af",
+                        "primary": "#006162",
+                        "surface-container": "#282828",
+                        "on-secondary": "#ffffff",
+                        "inverse-on-surface": "#f0f0f2",
+                        "on-surface": "#EBEBF0",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#89d3d4",
+                        "on-primary-fixed": "#002020",
+                        "surface-container-high": "#2c2c2e",
+                        "on-tertiary-fixed-variant": "#8c151e",
+                        "inverse-surface": "#f9f9fb",
+                        "surface-bright": "#242426",
+                        "error": "#ff5252",
+                        "on-error-container": "#93000a",
+                        "secondary-container": "#b9abff",
+                        "on-surface-variant": "#bec9c8",
+                        "surface-dim": "#121212",
+                        "on-background": "#EBEBF0",
+                        "on-secondary-container": "#493c87",
+                        "primary-container": "#2c7a7b",
+                        "on-primary": "#ffffff",
+                        "surface-container-highest": "#3a3a3c",
+                        "secondary-fixed": "#e6deff",
+                        "on-tertiary-fixed": "#410005",
+                        "error-container": "#ffdad6",
+                        "on-primary-container": "#c1ffff",
+                        "on-primary-fixed-variant": "#004f50",
+                        "tertiary": "#a3272c",
+                        "primary-fixed": "#a5eff0",
+                        "tertiary-fixed": "#ffdad7",
+                        "inverse-primary": "#89d3d4",
+                        "tertiary-container": "#c54042",
+                        "on-tertiary-container": "#fff0ef",
+                        "on-secondary-fixed-variant": "#483b86",
+                        "surface-container-low": "#1a1a1c"
+                    },
+                    fontFamily: {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Plus Jakarta Sans"],
+                        "label": ["Plus Jakarta Sans"]
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        body {
+            background-color: #121212;
+            color: #EBEBF0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .glass-header {
+            background: rgba(18, 18, 18, 0.7);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-body selection:bg-primary-container/30">
+<!-- Top App Bar -->
+<header class="fixed top-0 w-full z-50 glass-header border-b border-white/5">
+<div class="flex justify-between items-center h-[56px] px-5 w-full">
+<div class="flex items-center gap-3">
+<div class="text-teal-400 flex items-center">
+<span class="material-symbols-outlined text-2xl" data-icon="health_and_safety">health_and_safety</span>
+</div>
+<h1 class="text-lg font-medium tracking-tight text-on-surface">ReadyAid</h1>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-2 hover:bg-white/5 rounded-full transition-colors text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+</button>
+<div class="w-8 h-8 rounded-full overflow-hidden border border-white/10">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="Close-up portrait of a professional man with a friendly expression, soft studio lighting, high-end editorial photography style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAd9A2XLGep39c43oQeYqsi7_EGP3kHZLpVacNqTMCrshd5LlpXqnieI5mXPjGGaEA_gcYXGr-QP9f1hpnyuCFWhf8CjcAScqIa9C-oU6TJBEAM4ekivTaGorXpntxLkFgxOc-tgYSVPZSVVGX7D8pJrk5ctpnjPhDA02gwgDH7AvjXEqqzCTymwM9gDBGtuwv-4NpvG84IpKFgz7n8VxjbiI1f0V1CfU0fjNQqEs71V0rmrUKiH9spBeEbipfr-03wKE-GM5RZKBEU"/>
+</div>
+</div>
+</div>
+</header>
+<main class="pt-20 pb-32 px-5 max-w-2xl mx-auto">
+<!-- Status Row -->
+<div class="mb-8 flex items-center justify-between px-1">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-teal-500 animate-pulse"></div>
+<span class="text-[11px] font-light tracking-wide text-on-surface-variant uppercase">System Active • Offline Ready</span>
+</div>
+<span class="text-[11px] font-light text-on-surface-variant/60">Updated 2m ago</span>
+</div>
+<!-- Hero Welcome -->
+<section class="mb-10">
+<p class="text-sm font-light text-teal-400 mb-1">Welcome back, Alex</p>
+<h2 class="text-3xl font-medium tracking-tight text-on-surface leading-tight">How can we help you stay safe today?</h2>
+</section>
+<!-- Bento Grid Main Content -->
+<div class="grid grid-cols-2 gap-4 mb-10">
+<!-- Card: SOS -->
+<button class="group relative flex flex-col items-start p-5 bg-surface-container-lowest border border-white/10 rounded-2xl text-left transition-all active:scale-95 border-l-4 border-l-[#ff5252]">
+<div class="mb-8 text-[#ff5252]">
+<span class="material-symbols-outlined text-3xl" data-icon="emergency_share" style="font-variation-settings: 'FILL' 1;">emergency_share</span>
+</div>
+<h3 class="text-base font-medium text-on-surface mb-1">SOS Red</h3>
+<p class="text-xs font-light text-on-surface-variant leading-relaxed">Immediate emergency broadcast</p>
+</button>
+<!-- Card: Ask ReadyAid -->
+<button class="group relative flex flex-col items-start p-5 bg-surface-container-lowest border border-white/10 rounded-2xl text-left transition-all active:scale-95 border-l-4 border-l-teal-500">
+<div class="mb-8 text-teal-400">
+<span class="material-symbols-outlined text-3xl" data-icon="psychology_alt">psychology_alt</span>
+</div>
+<h3 class="text-base font-medium text-on-surface mb-1">Ask ReadyAid</h3>
+<p class="text-xs font-light text-on-surface-variant leading-relaxed">AI medical guidance</p>
+</button>
+<!-- Card: Guide -->
+<button class="group relative flex flex-col items-start p-5 bg-surface-container-lowest border border-white/10 rounded-2xl text-left transition-all active:scale-95 border-l-4 border-l-emerald-500">
+<div class="mb-8 text-emerald-400">
+<span class="material-symbols-outlined text-3xl" data-icon="menu_book">menu_book</span>
+</div>
+<h3 class="text-base font-medium text-on-surface mb-1">First-Aid Guide</h3>
+<p class="text-xs font-light text-on-surface-variant leading-relaxed">Offline rescue manual</p>
+</button>
+<!-- Card: My Info -->
+<button class="group relative flex flex-col items-start p-5 bg-surface-container-lowest border border-white/10 rounded-2xl text-left transition-all active:scale-95 border-l-4 border-l-secondary">
+<div class="mb-8 text-secondary-fixed-dim">
+<span class="material-symbols-outlined text-3xl" data-icon="fingerprint">fingerprint</span>
+</div>
+<h3 class="text-base font-medium text-on-surface mb-1">My Info</h3>
+<p class="text-xs font-light text-on-surface-variant leading-relaxed">Medical ID &amp; contacts</p>
+</button>
+</div>
+<!-- Secondary Actions Section -->
+<section class="space-y-4">
+<h4 class="text-sm font-medium text-on-surface-variant px-1">Nearby Resources</h4>
+<div class="bg-surface-container-low rounded-2xl p-4 flex items-center justify-between border border-white/5">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary-fixed-dim">
+<span class="material-symbols-outlined" data-icon="local_hospital">local_hospital</span>
+</div>
+<div>
+<p class="text-sm font-medium text-on-surface">General Hospital</p>
+<p class="text-xs font-light text-on-surface-variant">0.8 miles away • Open 24h</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-sm" data-icon="chevron_right">chevron_right</span>
+</div>
+</section>
+</main>
+<!-- Bottom Voice Bar & Navigation -->
+<div class="fixed bottom-0 left-0 w-full z-50">
+<!-- Floating Voice Pulse -->
+<div class="absolute -top-16 left-1/2 -translate-x-1/2">
+<button class="w-16 h-16 rounded-full bg-surface-container-lowest border border-teal-500/30 flex items-center justify-center text-teal-400 shadow-[0_0_20px_rgba(0,121,107,0.2)] active:scale-90 transition-transform relative">
+<span class="absolute inset-0 rounded-full border border-teal-500 animate-ping opacity-20"></span>
+<span class="material-symbols-outlined text-3xl" data-icon="mic" style="font-variation-settings: 'FILL' 1;">mic</span>
+</button>
+</div>
+<!-- Bottom Nav Bar -->
+<nav class="h-[64px] bg-surface-container-low border-t border-white/5 flex justify-around items-center px-2 pb-safe">
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-5 py-1" href="#">
+<span class="material-symbols-outlined text-[22px] mb-0.5" data-icon="medical_services">medical_services</span>
+<span class="text-[10px] font-light tracking-wide uppercase">Guides</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-5 py-1" href="#">
+<span class="material-symbols-outlined text-[22px] mb-0.5" data-icon="emergency">emergency</span>
+<span class="text-[10px] font-light tracking-wide uppercase">Emergency</span>
+</a>
+<!-- Spacing for Voice FAB -->
+<div class="w-16"></div>
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-5 py-1" href="#">
+<span class="material-symbols-outlined text-[22px] mb-0.5" data-icon="first_aid">wounds_injuries</span>
+<span class="text-[10px] font-light tracking-wide uppercase">Supplies</span>
+</a>
+<a class="flex flex-col items-center justify-center text-teal-400 bg-teal-900/20 rounded-2xl px-5 py-1" href="#">
+<span class="material-symbols-outlined text-[22px] mb-0.5" data-icon="person" style="font-variation-settings: 'FILL' 1;">person</span>
+<span class="text-[10px] font-light tracking-wide uppercase">Profile</span>
+</a>
+</nav>
+</div>
+</body></html>

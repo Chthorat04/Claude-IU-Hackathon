@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "background": "#f9f9fb",
+            "on-secondary-fixed": "#1c075a",
+            "surface": "#f9f9fb",
+            "secondary": "#6053a0",
+            "secondary-fixed-dim": "#cabeff",
+            "surface-variant": "#e2e2e4",
+            "on-error": "#ffffff",
+            "surface-tint": "#13696a",
+            "outline": "#6f7979",
+            "outline-variant": "#bec9c8",
+            "surface-container-lowest": "#ffffff",
+            "tertiary-fixed-dim": "#ffb3af",
+            "primary": "#006162",
+            "surface-container": "#eeeef0",
+            "on-secondary": "#ffffff",
+            "inverse-on-surface": "#f0f0f2",
+            "on-surface": "#1a1c1d",
+            "on-tertiary": "#ffffff",
+            "primary-fixed-dim": "#89d3d4",
+            "on-primary-fixed": "#002020",
+            "surface-container-high": "#e8e8ea",
+            "on-tertiary-fixed-variant": "#8c151e",
+            "inverse-surface": "#2f3132",
+            "surface-bright": "#f9f9fb",
+            "error": "#ba1a1a",
+            "on-error-container": "#93000a",
+            "secondary-container": "#b9abff",
+            "on-surface-variant": "#3f4949",
+            "surface-dim": "#d9dadc",
+            "on-background": "#1a1c1d",
+            "on-secondary-container": "#493c87",
+            "primary-container": "#2c7a7b",
+            "on-primary": "#ffffff",
+            "surface-container-highest": "#e2e2e4",
+            "secondary-fixed": "#e6deff",
+            "on-tertiary-fixed": "#410005",
+            "error-container": "#ffdad6",
+            "on-primary-container": "#c1ffff",
+            "on-primary-fixed-variant": "#004f50",
+            "tertiary": "#a3272c",
+            "primary-fixed": "#a5eff0",
+            "tertiary-fixed": "#ffdad7",
+            "inverse-primary": "#89d3d4",
+            "tertiary-container": "#c54042",
+            "on-tertiary-container": "#fff0ef",
+            "on-secondary-fixed-variant": "#483b86",
+            "surface-container-low": "#f3f3f5"
+          },
+          fontFamily: {
+            "headline": ["Plus Jakarta Sans"],
+            "body": ["Plus Jakarta Sans"],
+            "label": ["Plus Jakarta Sans"]
+          },
+          borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #0f172a; /* Custom dark deep slate for SOS idle */
+    }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .sos-gradient {
+      background: linear-gradient(180deg, #450a0a 0%, #1a0505 100%);
+    }
+    .glass-card {
+      background: rgba(30, 41, 59, 0.7);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(235, 235, 240, 0.1);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="text-slate-100 antialiased selection:bg-tertiary/30">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl border-b border-slate-200/20 dark:border-slate-800/20 flex justify-between items-center h-[56px] px-4 w-full">
+<div class="flex items-center gap-3">
+<button class="p-2 transition-all duration-200 ease-in-out hover:bg-slate-100/50 dark:hover:bg-slate-800/50 rounded-full">
+<span class="material-symbols-outlined text-teal-700 dark:text-teal-400">menu</span>
+</button>
+<span class="text-lg font-medium text-slate-900 dark:text-slate-100 tracking-tight">ReadyAid</span>
+</div>
+<div class="flex items-center">
+<div class="w-8 h-8 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center overflow-hidden">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="Close up portrait of a professional man with a neutral expression in a bright modern environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkoJuyS1aEZzto5D9btjvk3lTueuYyEMJ6Wc_-5gRI3n8uYg8MSHB7edKyITHQ-nbhcWx5pyfaEF5DTR1ElR_ANhL2GlV-fSHMB1zTp8ReWZIygoOVLuSiC7MRH-ROZwQHJEJi-3nLJKI5hwjk3c_3Wk9RQfe9Fr71lgO9oxS0zjMYIkSVlpU5nuwQw4AiPj11o12IeKluAeki8OusB6FRqFx3eC6GUZQndSvIzUDHbjsINnCUReYYFC8Eq7Vq_MDrS59BsjhjmxmC"/>
+</div>
+</div>
+</header>
+<main class="min-h-screen pt-[56px] pb-[64px] flex flex-col">
+<!-- Top Half: SOS Trigger Area -->
+<section class="flex-grow flex flex-col items-center justify-center px-5 py-12 sos-gradient relative overflow-hidden">
+<!-- Background subtle glow -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-red-900/20 blur-[100px] rounded-full"></div>
+<div class="text-center mb-12 relative z-10">
+<h1 class="text-[3.5rem] leading-tight font-medium tracking-tight text-white/90 mb-2">SOS</h1>
+<p class="text-sm font-light tracking-wide text-white/60">Press and hold for 3 seconds</p>
+</div>
+<!-- Emergency Button -->
+<div class="relative z-10">
+<div class="w-48 h-48 rounded-full bg-red-900/20 flex items-center justify-center">
+<button class="w-40 h-40 rounded-full bg-[#D94F4F] flex flex-col items-center justify-center transition-all active:scale-95 shadow-[0_0_50px_rgba(217,79,79,0.3)]">
+<span class="material-symbols-outlined text-white text-5xl mb-2" style="font-variation-settings: 'FILL' 1;">emergency</span>
+<span class="text-white text-sm tracking-wider font-medium">TRIGGER</span>
+</button>
+</div>
+</div>
+<div class="mt-12 text-center relative z-10">
+<div class="inline-flex items-center gap-2 px-4 py-2 bg-white/5 rounded-full border border-white/10">
+<span class="w-2 h-2 rounded-full bg-red-500"></span>
+<span class="text-[11px] font-light tracking-widest text-white/70">IDLE MODE</span>
+</div>
+</div>
+</section>
+<!-- Bottom Half: Contextual Actions & Info -->
+<section class="bg-slate-950 px-5 py-8 rounded-t-[2.5rem] -mt-8 relative z-20 shadow-2xl">
+<div class="max-w-md mx-auto">
+<div class="mb-8">
+<h2 class="text-[1rem] font-medium text-teal-400 mb-6 tracking-wide">Quick Emergency Tools</h2>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-2 gap-4">
+<div class="glass-card p-5 rounded-lg flex flex-col gap-3 group">
+<span class="material-symbols-outlined text-red-400 text-2xl">call</span>
+<div>
+<p class="text-[0.875rem] font-normal text-slate-100">Local Services</p>
+<p class="text-[0.6875rem] font-light text-slate-400">911 / 112 / 999</p>
+</div>
+</div>
+<div class="glass-card p-5 rounded-lg flex flex-col gap-3">
+<span class="material-symbols-outlined text-amber-400 text-2xl">location_on</span>
+<div>
+<p class="text-[0.875rem] font-normal text-slate-100">Hospitals</p>
+<p class="text-[0.6875rem] font-light text-slate-400">3 within 2.5km</p>
+</div>
+</div>
+<div class="glass-card col-span-2 p-5 rounded-lg flex items-center justify-between border-l-4 border-teal-500">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-teal-400">record_voice_over</span>
+<div>
+<p class="text-[0.875rem] font-normal text-slate-100">Voice Assistant Ready</p>
+<p class="text-[0.6875rem] font-light text-slate-400">"Hey ReadyAid, I need help"</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-500 text-sm">chevron_right</span>
+</div>
+</div>
+</div>
+<div>
+<h2 class="text-[1rem] font-medium text-teal-400 mb-4 tracking-wide">Recent History</h2>
+<div class="space-y-4">
+<div class="flex items-center justify-between p-4 bg-slate-900/40 rounded-lg">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center">
+<span class="material-symbols-outlined text-slate-400 text-xl">history</span>
+</div>
+<div>
+<p class="text-sm font-normal text-slate-200">First Aid Checkup</p>
+<p class="text-[11px] font-light text-slate-500">2 days ago • Home</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-600">more_vert</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full h-[64px] bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 flex justify-around items-center px-2 pb-safe z-50 shadow-none">
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-5 py-1 transition-transform scale-95 active:scale-90 hover:text-teal-600 dark:hover:text-teal-300" href="#">
+<span class="material-symbols-outlined">medical_services</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-1">Guides</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-300 rounded-2xl px-5 py-1 transition-transform scale-95 active:scale-90" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">emergency</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-1">Emergency</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-5 py-1 transition-transform scale-95 active:scale-90 hover:text-teal-600 dark:hover:text-teal-300" href="#">
+<span class="material-symbols-outlined">wounds_injuries</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-1">Supplies</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-500 px-5 py-1 transition-transform scale-95 active:scale-90 hover:text-teal-600 dark:hover:text-teal-300" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-1">Profile</span>
+</a>
+</nav>
+</body></html>

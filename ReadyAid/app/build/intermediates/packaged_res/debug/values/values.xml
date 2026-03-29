@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="amber">#E8A838</color>
+    <color name="background_card">#FFFFFF</color>
+    <color name="background_primary">#F5F5F7</color>
+    <color name="green">#3DAA72</color>
+    <color name="purple">#7C6FBE</color>
+    <color name="red">#D94F4F</color>
+    <color name="teal">#2C7A7B</color>
+    <color name="teal_dark">#1E5657</color>
+    <color name="text_primary">#1D1D1F</color>
+    <color name="text_secondary">#6E6E73</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">ReadyAid</string>
+    <string name="disclaimer_accept">I Understand</string>
+    <string name="disclaimer_body">ReadyAid provides educational first-aid guidance based on vetted medical sources. It is not a substitute for professional medical care or emergency services. Always call emergency services (911/999/112) when in doubt.</string>
+    <string name="disclaimer_title">Important Notice</string>
+    <string name="listening">Listening…</string>
+    <string name="press_to_speak">Press to speak</string>
+    <string name="processing">Processing…</string>
+    <string name="ready_offline">Ready offline</string>
+    <string name="sos_button_label">SOS</string>
+    <string name="tagline">Offline, voice-enabled first-aid guidance and SOS — always with you.</string>
+    <style name="Theme.ReadyAid" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/teal</item>
+        <item name="colorOnPrimary">@color/background_card</item>
+        <item name="colorSecondary">@color/amber</item>
+        <item name="colorOnSecondary">@color/background_card</item>
+        
+        
+        <item name="android:statusBarColor">@color/background_card</item>
+        <item name="android:navigationBarColor">@color/background_card</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" ns1:targetApi="27">true</item>
+    </style>
+</resources>

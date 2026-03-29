@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ReadyAid Onboarding - Personal Info</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "background": "#f9f9fb",
+              "on-secondary-fixed": "#1c075a",
+              "surface": "#f9f9fb",
+              "secondary": "#6053a0",
+              "secondary-fixed-dim": "#cabeff",
+              "surface-variant": "#e2e2e4",
+              "on-error": "#ffffff",
+              "surface-tint": "#13696a",
+              "outline": "#6f7979",
+              "outline-variant": "#bec9c8",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-fixed-dim": "#ffb3af",
+              "primary": "#006162",
+              "surface-container": "#eeeef0",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#f0f0f2",
+              "on-surface": "#1a1c1d",
+              "on-tertiary": "#ffffff",
+              "primary-fixed-dim": "#89d3d4",
+              "on-primary-fixed": "#002020",
+              "surface-container-high": "#e8e8ea",
+              "on-tertiary-fixed-variant": "#8c151e",
+              "inverse-surface": "#2f3132",
+              "surface-bright": "#f9f9fb",
+              "error": "#ba1a1a",
+              "on-error-container": "#93000a",
+              "secondary-container": "#b9abff",
+              "on-surface-variant": "#3f4949",
+              "surface-dim": "#d9dadc",
+              "on-background": "#1a1c1d",
+              "on-secondary-container": "#493c87",
+              "primary-container": "#2c7a7b",
+              "on-primary": "#ffffff",
+              "surface-container-highest": "#e2e2e4",
+              "secondary-fixed": "#e6deff",
+              "on-tertiary-fixed": "#410005",
+              "error-container": "#ffdad6",
+              "on-primary-container": "#c1ffff",
+              "on-primary-fixed-variant": "#004f50",
+              "tertiary": "#a3272c",
+              "primary-fixed": "#a5eff0",
+              "tertiary-fixed": "#ffdad7",
+              "inverse-primary": "#89d3d4",
+              "tertiary-container": "#c54042",
+              "on-tertiary-container": "#fff0ef",
+              "on-secondary-fixed-variant": "#483b86",
+              "surface-container-low": "#f3f3f5"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #ffffff;
+            color: #1a1c1d;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .step-transition {
+            transition: width 0.4s ease-in-out;
+        }
+        /* Custom underline styling for inputs as per user request within design system constraints */
+        .input-underline {
+            border: none;
+            border-bottom: 1px solid rgba(111, 121, 121, 0.3);
+            background: transparent;
+            border-radius: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .input-underline:focus {
+            ring: 0;
+            border-bottom: 2px solid #006162;
+            outline: none;
+            box-shadow: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="min-h-screen flex flex-col items-center">
+<!-- Progress Bar Section -->
+<header class="w-full max-w-md pt-8 px-5">
+<div class="flex h-1 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary step-transition w-1/3"></div>
+<div class="h-full bg-transparent w-2/3"></div>
+</div>
+<div class="mt-4 flex justify-between items-center">
+<span class="text-[11px] font-light tracking-wide text-primary uppercase">Step 1 of 3</span>
+<button class="text-[13px] font-normal text-outline hover:text-on-surface transition-colors">Skip</button>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="w-full max-w-md flex-grow flex flex-col px-5 pt-12">
+<!-- Typography Anchor -->
+<section class="mb-12">
+<h1 class="text-[28px] font-medium tracking-tight text-on-surface leading-tight">
+                Tell us about you
+            </h1>
+<p class="mt-2 text-[13px] font-normal text-on-surface-variant/80 tracking-normal">
+                This helps us personalize first-aid guidance for you
+            </p>
+</section>
+<!-- Form Section: Asymmetric White Space Focus -->
+<form class="space-y-10">
+<!-- Full Name Input -->
+<div class="relative group">
+<label class="block text-[11px] font-medium text-outline uppercase tracking-widest mb-1" for="fullname">Full Name</label>
+<input class="w-full text-base font-normal py-3 input-underline placeholder:text-outline-variant/60" id="fullname" placeholder="Enter your legal name" type="text"/>
+</div>
+<!-- Age Input -->
+<div class="relative group">
+<label class="block text-[11px] font-medium text-outline uppercase tracking-widest mb-1" for="age">Age</label>
+<input class="w-full text-base font-normal py-3 input-underline placeholder:text-outline-variant/60" id="age" placeholder="Years" type="number"/>
+</div>
+<!-- Blood Type Dropdown -->
+<div class="relative group">
+<label class="block text-[11px] font-medium text-outline uppercase tracking-widest mb-1" for="bloodtype">Blood Type</label>
+<div class="relative">
+<select class="w-full text-base font-normal py-3 input-underline appearance-none bg-transparent" id="bloodtype">
+<option disabled="" selected="" value="">Select type</option>
+<option value="A+">A+</option>
+<option value="A-">A-</option>
+<option value="B+">B+</option>
+<option value="B-">B-</option>
+<option value="AB+">AB+</option>
+<option value="AB-">AB-</option>
+<option value="O+">O+</option>
+<option value="O-">O-</option>
+<option value="unknown">I don't know</option>
+</select>
+<div class="absolute inset-y-0 right-0 flex items-center pr-0 pointer-events-none text-outline-variant">
+<span class="material-symbols-outlined text-[20px]">expand_more</span>
+</div>
+</div>
+</div>
+</form>
+<!-- Decorative Contextual Image (Subtle) -->
+<div class="mt-auto mb-8 flex justify-center opacity-40 grayscale group-hover:grayscale-0 transition-all duration-700">
+<img alt="Medical symbol" class="w-24 h-24 object-contain" data-alt="abstract soft medical texture background with clean medical cross symbol and ethereal blue lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMgp0g-TcNa-LmIaPj_2auwq4Vnu-crzcuYbEQM-rqXUzhbumVA2_bG8zKa2hkN8YTMwASLkrIst4eeyopHtOhrCdgsZfxFGPF1CPCZP0PnSVngX9X3wwtfL3pxbq_bnTCiHrWmCYAQqXoATONutmyUE6Fgwlv5CdO34ikAH1McGN7bWObOxxjm0vUzcRES13hbn3AYRBOpgz_IHUEkb3nB-yOp2hK8GtsmPakIqMn37yuG9DYvsSqalEct-DQJFMUrSclRfZ7I-lh"/>
+</div>
+</main>
+<!-- Fixed Action Bottom Shell -->
+<footer class="w-full max-w-md p-5 pb-10 bg-white">
+<button class="w-full h-14 bg-gradient-to-br from-primary to-primary-container text-on-primary rounded-full flex items-center justify-center gap-2 text-[15px] font-medium tracking-wide shadow-lg shadow-primary/10 active:scale-95 transition-transform duration-200">
+            Next
+            <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<p class="mt-4 text-center text-[10px] text-outline-variant font-light px-8">
+            Your data is stored securely and encrypted for your privacy.
+        </p>
+</footer>
+<!-- Suppressed Navigation Shell as per focus journey rule -->
+<!-- (No BottomNavBar or SideNav rendered for Onboarding) -->
+</body></html>

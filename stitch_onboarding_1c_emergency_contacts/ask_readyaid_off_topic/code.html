@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ReadyAid - Emergency Guidance</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "background": "#f9f9fb",
+                        "on-secondary-fixed": "#1c075a",
+                        "surface": "#f9f9fb",
+                        "secondary": "#6053a0",
+                        "secondary-fixed-dim": "#cabeff",
+                        "surface-variant": "#e2e2e4",
+                        "on-error": "#ffffff",
+                        "surface-tint": "#13696a",
+                        "outline": "#6f7979",
+                        "outline-variant": "#bec9c8",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary-fixed-dim": "#ffb3af",
+                        "primary": "#006162",
+                        "surface-container": "#eeeef0",
+                        "on-secondary": "#ffffff",
+                        "inverse-on-surface": "#f0f0f2",
+                        "on-surface": "#1a1c1d",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#89d3d4",
+                        "on-primary-fixed": "#002020",
+                        "surface-container-high": "#e8e8ea",
+                        "on-tertiary-fixed-variant": "#8c151e",
+                        "inverse-surface": "#2f3132",
+                        "surface-bright": "#f9f9fb",
+                        "error": "#ba1a1a",
+                        "on-error-container": "#93000a",
+                        "secondary-container": "#b9abff",
+                        "on-surface-variant": "#3f4949",
+                        "surface-dim": "#d9dadc",
+                        "on-background": "#1a1c1d",
+                        "on-secondary-container": "#493c87",
+                        "primary-container": "#2c7a7b",
+                        "on-primary": "#ffffff",
+                        "surface-container-highest": "#e2e2e4",
+                        "secondary-fixed": "#e6deff",
+                        "on-tertiary-fixed": "#410005",
+                        "error-container": "#ffdad6",
+                        "on-primary-container": "#c1ffff",
+                        "on-primary-fixed-variant": "#004f50",
+                        "tertiary": "#a3272c",
+                        "primary-fixed": "#a5eff0",
+                        "tertiary-fixed": "#ffdad7",
+                        "inverse-primary": "#89d3d4",
+                        "tertiary-container": "#c54042",
+                        "on-tertiary-container": "#fff0ef",
+                        "on-secondary-fixed-variant": "#483b86",
+                        "surface-container-low": "#f3f3f5"
+                    },
+                    fontFamily: {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Plus Jakarta Sans"],
+                        "label": ["Plus Jakarta Sans"]
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface min-h-screen flex flex-col">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl border-b border-slate-200/20 flex justify-between items-center h-[56px] px-4 w-full">
+<div class="flex items-center gap-3">
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-slate-100/50 transition-all duration-200">
+<span class="material-symbols-outlined text-teal-700">menu</span>
+</button>
+<span class="text-lg font-medium text-slate-900 tracking-tight">ReadyAid</span>
+</div>
+<div class="w-8 h-8 rounded-full bg-slate-200 overflow-hidden">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="Close-up professional headshot of a person with a friendly expression in soft studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAT9GvMTrIGsMufPqXCm43aqc3U7Air2mYAt7sYGjy4QAlk4Cyt2FAOjZycmc9ZIxnoYl8uaWh_JrLkwALnQqfE3C3sjtAZudkJiVdqqgagDeNynLyCoL5awT0Ti4KdrsDENX-fIQwfBRzNLm-yJ452tUPsbqGWOY7FgIJZDJuIX3tqHkwLzUpRoLVPItCK3_sg-q48ypQnIHVDJ2O01MIEmoSRAKTZ8K2ejdvcEFrTPkQlV1cnL3EFDl_1MFlU0P4k7xCxNEGeXh1e"/>
+</div>
+</header>
+<!-- Content Canvas -->
+<main class="flex-1 mt-16 pb-24 px-5 max-w-2xl mx-auto w-full flex flex-col gap-6">
+<!-- User Query Bubble (Contextual) -->
+<div class="flex justify-end mt-4">
+<div class="bg-primary-container text-on-primary-container px-5 py-3 rounded-2xl rounded-tr-none max-w-[85%] text-[15px] font-normal leading-relaxed">
+                How can I fix my computer screen?
+            </div>
+</div>
+<!-- AI Off-Topic Response Component -->
+<div class="bg-[#F5F5F7] border border-[#EBEBF0] rounded-2xl p-5 flex flex-col gap-4 shadow-sm">
+<div class="flex items-start gap-3">
+<div class="text-teal-700 mt-0.5">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">health_and_safety</span>
+</div>
+<div class="flex flex-col gap-4">
+<p class="text-[15px] font-normal text-slate-700 leading-relaxed">
+                        I'm ReadyAid — I'm here to help with first-aid guidance only. Please describe a medical emergency and I'll help right away.
+                    </p>
+<!-- Suggestion Chips -->
+<div class="flex flex-wrap gap-2">
+<button class="bg-white border border-slate-200 px-4 py-2 rounded-full text-[13px] font-medium text-teal-700 hover:bg-teal-50 hover:border-teal-100 transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">local_fire_department</span>
+                            My friend burned her hand
+                        </button>
+<button class="bg-white border border-slate-200 px-4 py-2 rounded-full text-[13px] font-medium text-teal-700 hover:bg-teal-50 hover:border-teal-100 transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">air</span>
+                            Someone is not breathing
+                        </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Instructional Card (Bento Style Placeholder) -->
+<div class="mt-4 grid grid-cols-1 gap-4">
+<div class="bg-surface-container-lowest rounded-2xl p-6 border border-outline-variant/20 flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-teal-50 flex items-center justify-center text-teal-600">
+<span class="material-symbols-outlined text-2xl">medical_information</span>
+</div>
+<div>
+<h3 class="text-[16px] font-medium text-on-surface">Emergency Guide</h3>
+<p class="text-[14px] font-normal text-on-surface-variant">Access 50+ first aid procedures offline.</p>
+</div>
+</div>
+</div>
+</main>
+<!-- FAB (Contextual for Home/Search) -->
+<div class="fixed bottom-24 right-6 z-40">
+<button class="w-14 h-14 rounded-full bg-gradient-to-br from-primary to-primary-container shadow-lg flex items-center justify-center text-white scale-100 active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">mic</span>
+</button>
+</div>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full h-[64px] flex justify-around items-center px-2 pb-safe bg-white border-t border-slate-200 z-50">
+<div class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 hover:text-teal-600 transition-colors">
+<span class="material-symbols-outlined mb-1">medical_services</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide">Guides</span>
+</div>
+<div class="flex flex-col items-center justify-center bg-teal-50 text-teal-700 rounded-2xl px-5 py-1 transition-transform scale-95 active:scale-90">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">emergency</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide">Emergency</span>
+</div>
+<div class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 hover:text-teal-600 transition-colors">
+<span class="material-symbols-outlined mb-1">wounds_injuries</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide">Supplies</span>
+</div>
+<div class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 hover:text-teal-600 transition-colors">
+<span class="material-symbols-outlined mb-1">person</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide">Profile</span>
+</div>
+</nav>
+</body></html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "background": "#f9f9fb",
+              "on-secondary-fixed": "#1c075a",
+              "surface": "#f9f9fb",
+              "secondary": "#6053a0",
+              "secondary-fixed-dim": "#cabeff",
+              "surface-variant": "#e2e2e4",
+              "on-error": "#ffffff",
+              "surface-tint": "#13696a",
+              "outline": "#6f7979",
+              "outline-variant": "#bec9c8",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-fixed-dim": "#ffb3af",
+              "primary": "#006162",
+              "surface-container": "#eeeef0",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#f0f0f2",
+              "on-surface": "#1a1c1d",
+              "on-tertiary": "#ffffff",
+              "primary-fixed-dim": "#89d3d4",
+              "on-primary-fixed": "#002020",
+              "surface-container-high": "#e8e8ea",
+              "on-tertiary-fixed-variant": "#8c151e",
+              "inverse-surface": "#2f3132",
+              "surface-bright": "#f9f9fb",
+              "error": "#ba1a1a",
+              "on-error-container": "#93000a",
+              "secondary-container": "#b9abff",
+              "on-surface-variant": "#3f4949",
+              "surface-dim": "#d9dadc",
+              "on-background": "#1a1c1d",
+              "on-secondary-container": "#493c87",
+              "primary-container": "#2c7a7b",
+              "on-primary": "#ffffff",
+              "surface-container-highest": "#e2e2e4",
+              "secondary-fixed": "#e6deff",
+              "on-tertiary-fixed": "#410005",
+              "error-container": "#ffdad6",
+              "on-primary-container": "#c1ffff",
+              "on-primary-fixed-variant": "#004f50",
+              "tertiary": "#a3272c",
+              "primary-fixed": "#a5eff0",
+              "tertiary-fixed": "#ffdad7",
+              "inverse-primary": "#89d3d4",
+              "tertiary-container": "#c54042",
+              "on-tertiary-container": "#fff0ef",
+              "on-secondary-fixed-variant": "#483b86",
+              "surface-container-low": "#f3f3f5"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      body { font-family: 'Plus Jakarta Sans', sans-serif; }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      }
+      /* Hide navigation shells as per Shell Visibility & Relevance rule for Onboarding */
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface antialiased">
+<!-- Top Navigation Anchor (Manual for Onboarding Flow) -->
+<header class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl border-b border-slate-200/20 px-5 h-[64px] flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="text-primary font-medium tracking-tight text-lg">ReadyAid</span>
+</div>
+<div class="text-on-surface-variant text-[11px] font-light tracking-wide">Step 2 of 4</div>
+</header>
+<main class="pt-24 pb-32 px-5 max-w-xl mx-auto min-h-screen flex flex-col">
+<!-- Progress Bar Section -->
+<div class="mb-10">
+<div class="h-1 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary transition-all duration-500 w-1/2"></div>
+</div>
+</div>
+<!-- Header Section -->
+<section class="mb-10">
+<h1 class="text-[2.2rem] font-medium leading-tight tracking-tight text-on-surface mb-3">Your medical profile</h1>
+<p class="text-on-surface-variant text-[0.875rem] font-light leading-relaxed">Required so we can personalize emergency guidance</p>
+</section>
+<!-- Form Section -->
+<div class="space-y-8 flex-grow">
+<!-- Medical Conditions -->
+<div class="space-y-4">
+<label class="text-[1rem] font-medium text-on-surface">Medical conditions</label>
+<div class="flex flex-wrap gap-2.5">
+<div class="flex items-center gap-1.5 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 text-primary text-[0.875rem] font-medium transition-colors hover:bg-primary/10">
+                        Asthma
+                        <span class="material-symbols-outlined text-[16px] cursor-pointer">close</span>
+</div>
+<div class="flex items-center gap-1.5 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 text-primary text-[0.875rem] font-medium transition-colors hover:bg-primary/10">
+                        Diabetes Type 2
+                        <span class="material-symbols-outlined text-[16px] cursor-pointer">close</span>
+</div>
+<div class="flex items-center gap-1.5 px-4 py-2 rounded-full border border-dashed border-outline-variant text-on-surface-variant text-[0.875rem] hover:bg-surface-container transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-[18px]">add</span>
+                        Add condition
+                    </div>
+</div>
+</div>
+<!-- Allergies -->
+<div class="space-y-4">
+<label class="text-[1rem] font-medium text-on-surface">Allergies</label>
+<div class="flex flex-wrap gap-2.5">
+<div class="flex items-center gap-1.5 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 text-primary text-[0.875rem] font-medium transition-colors hover:bg-primary/10">
+                        Penicillin
+                        <span class="material-symbols-outlined text-[16px] cursor-pointer">close</span>
+</div>
+<div class="flex items-center gap-1.5 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 text-primary text-[0.875rem] font-medium transition-colors hover:bg-primary/10">
+                        Latex
+                        <span class="material-symbols-outlined text-[16px] cursor-pointer">close</span>
+</div>
+<div class="flex items-center gap-1.5 px-4 py-2 rounded-full border border-dashed border-outline-variant text-on-surface-variant text-[0.875rem] hover:bg-surface-container transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-[18px]">add</span>
+                        Add allergy
+                    </div>
+</div>
+</div>
+<!-- Current Medications -->
+<div class="space-y-3">
+<label class="text-[1rem] font-medium text-on-surface" for="medications">Current medications</label>
+<input class="w-full bg-surface-container-low border-none rounded-lg p-4 text-[0.875rem] placeholder:text-on-surface-variant/50 focus:ring-1 focus:ring-primary/30 transition-shadow" id="medications" placeholder="List medications (e.g. Albuterol, Metformin)" type="text"/>
+</div>
+<!-- Medical History -->
+<div class="space-y-3">
+<label class="text-[1rem] font-medium text-on-surface" for="history">Medical history</label>
+<textarea class="w-full bg-surface-container-low border-none rounded-lg p-4 text-[0.875rem] placeholder:text-on-surface-variant/50 focus:ring-1 focus:ring-primary/30 transition-shadow resize-none" id="history" placeholder="Briefly describe past surgeries or significant health events..." rows="4"></textarea>
+</div>
+</div>
+<!-- Sticky Footer Actions -->
+<div class="mt-12 space-y-4">
+<button class="w-full h-14 bg-gradient-to-br from-primary to-primary-container text-on-primary rounded-full font-medium text-[1rem] flex items-center justify-center gap-2 shadow-none hover:opacity-95 active:scale-[0.98] transition-all">
+                Next
+                <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+<div class="flex justify-center">
+<button class="text-on-surface-variant text-[0.875rem] font-light py-2 px-6 hover:text-primary transition-colors">
+                    Back
+                </button>
+</div>
+</div>
+</main>
+<!-- Contextual Decorative Element (Zen Aesthetic) -->
+<div class="fixed bottom-0 right-0 -z-10 w-[300px] h-[300px] bg-teal-500/5 blur-[100px] rounded-full translate-x-1/2 translate-y-1/2"></div>
+<div class="fixed top-0 left-0 -z-10 w-[200px] h-[200px] bg-secondary/5 blur-[80px] rounded-full -translate-x-1/4 -translate-y-1/4"></div>
+</body></html>

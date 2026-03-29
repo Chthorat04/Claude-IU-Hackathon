@@ -1,0 +1,82 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.2/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :app
+WARNING: The option setting 'android.defaults.buildfeatures.buildconfig=true' is deprecated.
+The current default is 'false'.
+It will be removed in version 9.0 of the Android Gradle plugin.
+You can resolve this warning in Android Studio via `Refactor` > `Migrate BuildConfig to Gradle Build Files`
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+WARNING: We recommend using a newer Android Gradle plugin to use compileSdk = 35
+
+This Android Gradle plugin (8.2.2) was tested up to compileSdk = 34.
+
+You are strongly encouraged to update your project to use a newer
+Android Gradle plugin that has been tested with compileSdk = 35.
+
+If you are already using the latest version of the Android Gradle plugin,
+you may need to wait until a newer version with support for compileSdk = 35 is available.
+
+To suppress this warning, add/update
+    android.suppressUnsupportedCompileSdk=35
+to this project's gradle.properties.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugResources
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:processDebugResources
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:mergeExtDexDebug
+> Task :app:kspDebugKotlin
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/firstaid/list/GuideListScreen.kt:35:18 Unsupported [literal prefixes and suffixes]
+e: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/firstaid/list/GuideListScreen.kt:36:18 Unsupported [literal prefixes and suffixes]
+e: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/firstaid/list/GuideListScreen.kt:50:18 Unsupported [literal prefixes and suffixes]
+e: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/firstaid/list/GuideListScreen.kt:51:18 Unsupported [literal prefixes and suffixes]
+e: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/firstaid/list/GuideListScreen.kt:65:18 Unsupported [literal prefixes and suffixes]
+e: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/firstaid/list/GuideListScreen.kt:66:18 Unsupported [literal prefixes and suffixes]
+e: file:///Users/chetanathorat/Desktop/Claude%20IU%20hackathon%20new/ReadyAid/app/src/main/java/com/readyaid/ui/home/HomeScreen.kt:258:48 Unresolved reference: Color
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 51s
+27 actionable tasks: 11 executed, 16 up-to-date

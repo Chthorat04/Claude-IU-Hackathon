@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "background": "#f9f9fb",
+              "on-secondary-fixed": "#1c075a",
+              "surface": "#f9f9fb",
+              "secondary": "#6053a0",
+              "secondary-fixed-dim": "#cabeff",
+              "surface-variant": "#e2e2e4",
+              "on-error": "#ffffff",
+              "surface-tint": "#13696a",
+              "outline": "#6f7979",
+              "outline-variant": "#bec9c8",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-fixed-dim": "#ffb3af",
+              "primary": "#006162",
+              "surface-container": "#eeeef0",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#f0f0f2",
+              "on-surface": "#1a1c1d",
+              "on-tertiary": "#ffffff",
+              "primary-fixed-dim": "#89d3d4",
+              "on-primary-fixed": "#002020",
+              "surface-container-high": "#e8e8ea",
+              "on-tertiary-fixed-variant": "#8c151e",
+              "inverse-surface": "#2f3132",
+              "surface-bright": "#f9f9fb",
+              "error": "#ba1a1a",
+              "on-error-container": "#93000a",
+              "secondary-container": "#b9abff",
+              "on-surface-variant": "#3f4949",
+              "surface-dim": "#d9dadc",
+              "on-background": "#1a1c1d",
+              "on-secondary-container": "#493c87",
+              "primary-container": "#2c7a7b",
+              "on-primary": "#ffffff",
+              "surface-container-highest": "#e2e2e4",
+              "secondary-fixed": "#e6deff",
+              "on-tertiary-fixed": "#410005",
+              "error-container": "#ffdad6",
+              "on-primary-container": "#c1ffff",
+              "on-primary-fixed-variant": "#004f50",
+              "tertiary": "#a3272c",
+              "primary-fixed": "#a5eff0",
+              "tertiary-fixed": "#ffdad7",
+              "inverse-primary": "#89d3d4",
+              "tertiary-container": "#c54042",
+              "on-tertiary-container": "#fff0ef",
+              "on-secondary-fixed-variant": "#483b86",
+              "surface-container-low": "#f3f3f5"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        
+        .sos-pulse-ring {
+            position: absolute;
+            border-radius: 50%;
+            background: #ba1a1a;
+            opacity: 0.15;
+            width: 280px;
+            height: 280px;
+        }
+        .sos-pulse-ring-outer {
+            position: absolute;
+            border-radius: 50%;
+            background: #ba1a1a;
+            opacity: 0.05;
+            width: 360px;
+            height: 360px;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface antialiased">
+<!-- Top App Bar - SUPPRESSED for focused emergency task per shell rules -->
+<main class="min-h-screen flex flex-col items-center justify-center px-5 relative overflow-hidden">
+<!-- Background Atmospheric Element -->
+<div class="absolute inset-0 z-0 pointer-events-none">
+<div class="absolute top-[-10%] right-[-10%] w-96 h-96 bg-error/5 rounded-full blur-[100px]"></div>
+<div class="absolute bottom-[-10%] left-[-10%] w-96 h-96 bg-primary/5 rounded-full blur-[100px]"></div>
+</div>
+<!-- SOS Countdown Identity -->
+<div class="z-10 text-center mb-16">
+<h1 class="text-[1.375rem] font-medium tracking-tight text-on-surface mb-2">ReadyAid SOS</h1>
+<p class="text-[0.875rem] text-on-surface-variant font-normal">Emergency services are being notified</p>
+</div>
+<!-- SOS Central Trigger (Countdown State) -->
+<div class="relative flex items-center justify-center z-10">
+<!-- Pulsing Rings -->
+<div class="sos-pulse-ring-outer"></div>
+<div class="sos-pulse-ring"></div>
+<!-- Main Countdown Button -->
+<div class="w-[200px] h-[200px] rounded-full bg-gradient-to-br from-error to-tertiary flex items-center justify-center shadow-2xl relative z-20">
+<span class="text-[3rem] font-medium text-white leading-none">5</span>
+</div>
+</div>
+<!-- Action & Status Cluster -->
+<div class="mt-20 z-10 flex flex-col items-center gap-6">
+<div class="text-center">
+<p class="text-[0.9375rem] font-normal text-[#D94F4F] mb-1">Calling in 5 seconds...</p>
+<p class="text-[0.6875rem] font-light text-outline uppercase tracking-widest">Gps location shared</p>
+</div>
+<button class="text-[0.9375rem] font-normal text-secondary py-2 px-8 hover:bg-secondary/5 rounded-full transition-colors duration-200">
+                Cancel
+            </button>
+</div>
+<!-- Bento Grid Information Overlay (Subtle) -->
+<div class="mt-auto mb-12 grid grid-cols-2 gap-3 w-full max-w-sm z-10">
+<div class="p-4 rounded-2xl bg-surface-container-lowest border border-outline-variant/20 flex flex-col gap-2">
+<span class="material-symbols-outlined text-tertiary text-[20px]">location_on</span>
+<div class="flex flex-col">
+<span class="text-[0.6875rem] text-outline font-light">Current Location</span>
+<span class="text-[0.8125rem] text-on-surface font-medium truncate">221B Baker St, London</span>
+</div>
+</div>
+<div class="p-4 rounded-2xl bg-surface-container-lowest border border-outline-variant/20 flex flex-col gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">medical_information</span>
+<div class="flex flex-col">
+<span class="text-[0.6875rem] text-outline font-light">Medical ID</span>
+<span class="text-[0.8125rem] text-on-surface font-medium truncate">Blood Type O+</span>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Navigation - SUPPRESSED for focused emergency task per shell rules -->
+<!-- Map Context Backdrop (Low Opacity) -->
+<div class="fixed inset-0 z-[-1] opacity-30">
+<img class="w-full h-full object-cover" data-alt="Soft desaturated urban map view with clean minimalist street lines and subtle teal medical markers" data-location="London" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_0OQJPrUqdE36tjQBobL-LWdCOGWz00pdoHsBY_klpkFUrPi5XJyb4h9HdGOC_n5tELBym_9QqDnwxngmAy4deZ5TkuvJHdR9vvQSd1D25mpbQ54ds1Xuob03AJ29wUwYF5RAEs1P0N2fRrKGcfkTptl47O5iGbE7b21N2qAJmr0lDZaF5Ttftz9JUSBX6qW_XS9FAgkarG_tB7QRQn1LOM8uM8XmQ_aWHrMk5jrr546G3JlDlthxiCv9KJR7314Z0MwNCL77vkhY"/>
+</div>
+</body></html>

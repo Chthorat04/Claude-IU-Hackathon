@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "background": "#f9f9fb",
+              "on-secondary-fixed": "#1c075a",
+              "surface": "#f9f9fb",
+              "secondary": "#6053a0",
+              "secondary-fixed-dim": "#cabeff",
+              "surface-variant": "#e2e2e4",
+              "on-error": "#ffffff",
+              "surface-tint": "#13696a",
+              "outline": "#6f7979",
+              "outline-variant": "#bec9c8",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-fixed-dim": "#ffb3af",
+              "primary": "#006162",
+              "surface-container": "#eeeef0",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#f0f0f2",
+              "on-surface": "#1a1c1d",
+              "on-tertiary": "#ffffff",
+              "primary-fixed-dim": "#89d3d4",
+              "on-primary-fixed": "#002020",
+              "surface-container-high": "#e8e8ea",
+              "on-tertiary-fixed-variant": "#8c151e",
+              "inverse-surface": "#2f3132",
+              "surface-bright": "#f9f9fb",
+              "error": "#ba1a1a",
+              "on-error-container": "#93000a",
+              "secondary-container": "#b9abff",
+              "on-surface-variant": "#3f4949",
+              "surface-dim": "#d9dadc",
+              "on-background": "#1a1c1d",
+              "on-secondary-container": "#493c87",
+              "primary-container": "#2c7a7b",
+              "on-primary": "#ffffff",
+              "surface-container-highest": "#e2e2e4",
+              "secondary-fixed": "#e6deff",
+              "on-tertiary-fixed": "#410005",
+              "error-container": "#ffdad6",
+              "on-primary-container": "#c1ffff",
+              "on-primary-fixed-variant": "#004f50",
+              "tertiary": "#a3272c",
+              "primary-fixed": "#a5eff0",
+              "tertiary-fixed": "#ffdad7",
+              "inverse-primary": "#89d3d4",
+              "tertiary-container": "#c54042",
+              "on-tertiary-container": "#fff0ef",
+              "on-secondary-fixed-variant": "#483b86",
+              "surface-container-low": "#f3f3f5"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; -webkit-font-smoothing: antialiased; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+        .emergency-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+        .glass-header { backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface min-h-screen pb-24">
+<!-- Top App Bar -->
+<header class="fixed top-0 w-full z-50 bg-white/70 dark:bg-slate-900/70 glass-header border-b border-slate-200/20 dark:border-slate-800/20">
+<div class="flex justify-between items-center h-[56px] px-5 w-full">
+<div class="flex items-center gap-4">
+<button class="text-teal-700 dark:text-teal-400 p-1 hover:bg-slate-100/50 rounded-full transition-all">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<h1 class="text-lg font-medium text-slate-900 dark:text-slate-100 font-headline tracking-tight">ReadyAid</h1>
+</div>
+<div class="w-8 h-8 rounded-full overflow-hidden bg-slate-200">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="minimalist portrait of a professional healthcare provider with clean lighting and neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZ7kfQWAJ6fCjBg7i0yt6-pL4dvhKKtDV-WaLgYO9-9GkWRrgbRXqwCaEIAYN0IhV5FEtAfFzkTeybKqQjcEaYxF_2XZGAd3EmRE5_JRii2aoYpdcc4p53AW3KcEJScMhV0v_AiaRdagfvi4ahbsmEejFHLpvLRJBmvzHDnhbTuaLq3WF7_50Z63xyP1GrWNf-KD4m2tJC3qX0q_rPqX0fuUFo93qM6BPBAzH2jmtLCYEJ-vzUH4trazXQKBOHqe0Khspyh2OmtfcO"/>
+</div>
+</div>
+</header>
+<main class="pt-20 px-5 max-w-2xl mx-auto">
+<!-- Page Title -->
+<div class="mb-6">
+<h2 class="text-[22px] font-medium tracking-tight text-on-surface">First-Aid Guide</h2>
+</div>
+<!-- Search Bar Section -->
+<div class="relative group mb-8">
+<div class="absolute inset-y-0 left-4 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-outline-variant" data-icon="search">search</span>
+</div>
+<input class="w-full h-[52px] pl-12 pr-12 bg-white border border-[#EBEBF0] rounded-[14px] text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary/20 transition-all shadow-sm" placeholder="Describe what happened..." type="text"/>
+<div class="absolute inset-y-0 right-4 flex items-center">
+<button class="p-1 hover:bg-teal-50 rounded-full transition-colors">
+<span class="material-symbols-outlined text-primary" data-icon="mic">mic</span>
+</button>
+</div>
+</div>
+<!-- Featured Alert/Instruction Card -->
+<div class="mb-8 p-5 bg-primary-container/10 border border-primary/10 rounded-2xl flex items-start gap-4">
+<div class="p-2 bg-primary/10 rounded-full">
+<span class="material-symbols-outlined text-primary" data-icon="lightbulb">lightbulb</span>
+</div>
+<div>
+<h3 class="text-[15px] font-medium text-on-primary-container mb-1">Quick Tip</h3>
+<p class="text-[13px] leading-relaxed text-on-surface-variant">Stay calm and check the environment for hazards before approaching an injured person.</p>
+</div>
+</div>
+<!-- Section Label -->
+<div class="mb-4 px-1">
+<span class="text-[13px] font-medium text-secondary uppercase tracking-wider">Common emergencies</span>
+</div>
+<!-- 2-Column Grid -->
+<div class="emergency-grid">
+<!-- Burns Card (Amber) -->
+<button class="flex flex-col items-start bg-white border border-[#EBEBF0] border-l-[4px] border-l-amber-400 rounded-[14px] p-4 text-left hover:bg-slate-50 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-amber-500 mb-3" data-icon="local_fire_department">local_fire_department</span>
+<span class="text-[15px] font-medium text-on-surface">Burns</span>
+</button>
+<!-- Bleeding Card (Red) -->
+<button class="flex flex-col items-start bg-white border border-[#EBEBF0] border-l-[4px] border-l-error rounded-[14px] p-4 text-left hover:bg-slate-50 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-error mb-3" data-icon="bloodtype">bloodtype</span>
+<span class="text-[15px] font-medium text-on-surface">Bleeding</span>
+</button>
+<!-- Choking Card (Amber) -->
+<button class="flex flex-col items-start bg-white border border-[#EBEBF0] border-l-[4px] border-l-amber-400 rounded-[14px] p-4 text-left hover:bg-slate-50 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-amber-500 mb-3" data-icon="air">air</span>
+<span class="text-[15px] font-medium text-on-surface">Choking</span>
+</button>
+<!-- Fracture Card (Amber) -->
+<button class="flex flex-col items-start bg-white border border-[#EBEBF0] border-l-[4px] border-l-amber-400 rounded-[14px] p-4 text-left hover:bg-slate-50 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-amber-500 mb-3" data-icon="orthopedics">orthopedics</span>
+<span class="text-[15px] font-medium text-on-surface">Fracture</span>
+</button>
+<!-- Asthma Card (Teal) -->
+<button class="flex flex-col items-start bg-white border border-[#EBEBF0] border-l-[4px] border-l-primary rounded-[14px] p-4 text-left hover:bg-slate-50 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-primary mb-3" data-icon="respiratory_rate">respiratory_rate</span>
+<span class="text-[15px] font-medium text-on-surface">Asthma</span>
+</button>
+<!-- Unconscious Card (Red) -->
+<button class="flex flex-col items-start bg-white border border-[#EBEBF0] border-l-[4px] border-l-error rounded-[14px] p-4 text-left hover:bg-slate-50 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-error mb-3" data-icon="airline_seat_flat_angled">airline_seat_flat_angled</span>
+<span class="text-[15px] font-medium text-on-surface">Unconscious</span>
+</button>
+<!-- Allergic Reaction (Teal) -->
+<button class="flex flex-col items-start bg-white border border-[#EBEBF0] border-l-[4px] border-l-primary rounded-[14px] p-4 text-left hover:bg-slate-50 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-primary mb-3" data-icon="coronavirus">coronavirus</span>
+<span class="text-[15px] font-medium text-on-surface">Allergy</span>
+</button>
+<!-- Heart Attack (Red) -->
+<button class="flex flex-col items-start bg-white border border-[#EBEBF0] border-l-[4px] border-l-error rounded-[14px] p-4 text-left hover:bg-slate-50 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-error mb-3" data-icon="monitor_heart">monitor_heart</span>
+<span class="text-[15px] font-medium text-on-surface">Heart Attack</span>
+</button>
+</div>
+<!-- Secondary Section -->
+<div class="mt-10 mb-4 px-1">
+<span class="text-[13px] font-medium text-secondary uppercase tracking-wider">Life-saving tools</span>
+</div>
+<div class="space-y-4">
+<div class="bg-white border border-[#EBEBF0] rounded-2xl p-4 flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-surface-container rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="location_on">location_on</span>
+</div>
+<div>
+<h4 class="text-[15px] font-medium">Nearest Hospital</h4>
+<p class="text-[12px] text-outline">2.4 miles away • Open 24h</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline" data-icon="chevron_right">chevron_right</span>
+</div>
+<div class="bg-white border border-[#EBEBF0] rounded-2xl p-4 flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-surface-container rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="call">call</span>
+</div>
+<div>
+<h4 class="text-[15px] font-medium">Emergency Contacts</h4>
+<p class="text-[12px] text-outline">Manage your ICE list</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+</main>
+<!-- Bottom Navigation Bar -->
+<nav class="fixed bottom-0 left-0 w-full h-[64px] flex justify-around items-center px-2 pb-safe bg-white border-t border-slate-200 z-50">
+<a class="flex flex-col items-center justify-center bg-teal-50 text-teal-700 rounded-2xl px-5 py-1 scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="medical_services" style="font-variation-settings: 'FILL' 1;">medical_services</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-1">Guides</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 hover:text-teal-600 transition-transform active:scale-90" href="#">
+<span class="material-symbols-outlined" data-icon="emergency">emergency</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-1">Emergency</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 hover:text-teal-600 transition-transform active:scale-90" href="#">
+<span class="material-symbols-outlined" data-icon="first_aid">wounds_injuries</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-1">Supplies</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 hover:text-teal-600 transition-transform active:scale-90" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-1">Profile</span>
+</a>
+</nav>
+</body></html>

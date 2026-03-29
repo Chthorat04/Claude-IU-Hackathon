@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>ReadyAid SOS — IDLE</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "background": "#f9f9fb",
+              "on-secondary-fixed": "#1c075a",
+              "surface": "#f9f9fb",
+              "secondary": "#6053a0",
+              "secondary-fixed-dim": "#cabeff",
+              "surface-variant": "#e2e2e4",
+              "on-error": "#ffffff",
+              "surface-tint": "#13696a",
+              "outline": "#6f7979",
+              "outline-variant": "#bec9c8",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-fixed-dim": "#ffb3af",
+              "primary": "#006162",
+              "surface-container": "#eeeef0",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#f0f0f2",
+              "on-surface": "#1a1c1d",
+              "on-tertiary": "#ffffff",
+              "primary-fixed-dim": "#89d3d4",
+              "on-primary-fixed": "#002020",
+              "surface-container-high": "#e8e8ea",
+              "on-tertiary-fixed-variant": "#8c151e",
+              "inverse-surface": "#2f3132",
+              "surface-bright": "#f9f9fb",
+              "error": "#ba1a1a",
+              "on-error-container": "#93000a",
+              "secondary-container": "#b9abff",
+              "on-surface-variant": "#3f4949",
+              "surface-dim": "#d9dadc",
+              "on-background": "#1a1c1d",
+              "on-secondary-container": "#493c87",
+              "primary-container": "#2c7a7b",
+              "on-primary": "#ffffff",
+              "surface-container-highest": "#e2e2e4",
+              "secondary-fixed": "#e6deff",
+              "on-tertiary-fixed": "#410005",
+              "error-container": "#ffdad6",
+              "on-primary-container": "#c1ffff",
+              "on-primary-fixed-variant": "#004f50",
+              "tertiary": "#a3272c",
+              "primary-fixed": "#a5eff0",
+              "tertiary-fixed": "#ffdad7",
+              "inverse-primary": "#89d3d4",
+              "tertiary-container": "#c54042",
+              "on-tertiary-container": "#fff0ef",
+              "on-secondary-fixed-variant": "#483b86",
+              "surface-container-low": "#f3f3f5"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; -webkit-font-smoothing: antialiased; }
+        .sos-pulse {
+            box-shadow: 0 0 0 0 rgba(217, 79, 79, 0.2);
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(217, 79, 79, 0.4); }
+            70% { box-shadow: 0 0 0 40px rgba(217, 79, 79, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(217, 79, 79, 0); }
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface min-h-screen flex flex-col">
+<!-- TopAppBar Mapping -->
+<header class="fixed top-0 w-full z-50 bg-transparent flex justify-between items-center h-[56px] px-4 w-full">
+<div class="flex items-center justify-center w-10 h-10 rounded-full hover:bg-black/5 transition-all duration-200">
+<span class="material-symbols-outlined text-slate-900" data-icon="arrow_back">arrow_back</span>
+</div>
+<div class="text-lg font-medium text-slate-900 tracking-tight">ReadyAid</div>
+<div class="w-10 h-10 rounded-full overflow-hidden border border-white/20">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="Close-up portrait of a professional healthcare provider with a warm smile in a clean medical setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0HL6z47cPeZ3b6OEuPQf96IoIRpG6QtXtYYxGUnydJFAjoEoZVxfnH91rkg6WivixuOmejuTTECImwAvxRFuJhJrZsfMmrj5gII8qReAkh-88lPCZcNn-AOW1c2zLCPV4MPSd3FVF-xN7UY0X3vnuVW-Kl7waipIzqs-Ymff8ZP7bBUCDnADePiRXcnrowh-_Ldr7gTrm08Kd9jMUVvaQ8jrEM14igJcnGC2LS9Fxn1jvd4g4EjKrxtSZE96ur5GZGXXNFLRinEdZ"/>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-grow flex flex-col pt-[56px] pb-[64px]">
+<!-- Hero Section: SOS Interaction Zone -->
+<section class="flex-grow flex flex-col items-center justify-center px-5 bg-gradient-to-b from-[#FDF0F0] to-[#FAFAFA]">
+<div class="relative flex flex-col items-center">
+<!-- SOS Button -->
+<button class="sos-pulse w-[120px] h-[120px] rounded-full bg-[#D94F4F] flex flex-col items-center justify-center transition-transform active:scale-95 duration-200 shadow-xl shadow-[#D94F4F]/20">
+<span class="text-[22px] font-medium text-white leading-none mb-1">SOS</span>
+<span class="text-[11px] font-light text-white/80 leading-none">Tap to call for help</span>
+</button>
+<!-- Voice Input Hint -->
+<div class="mt-12 flex items-center gap-2 px-4 py-2 rounded-full bg-white/40 backdrop-blur-md border border-[#D94F4F]/10">
+<span class="material-symbols-outlined text-[#D94F4F] text-[20px]" data-icon="mic" data-weight="fill" style="font-variation-settings: 'FILL' 1;">mic</span>
+<span class="text-[13px] font-normal text-slate-600">Or say <span class="text-[#D94F4F] font-medium">'send SOS'</span></span>
+</div>
+</div>
+</section>
+<!-- Bottom Sheet Section -->
+<section class="bg-white rounded-t-[14px] px-5 pt-8 pb-10 shadow-[0_-4px_24px_rgba(0,0,0,0.04)]">
+<div class="max-w-md mx-auto space-y-8">
+<!-- Emergency Contacts -->
+<div class="space-y-4">
+<h2 class="text-[13px] font-medium text-secondary tracking-wide uppercase opacity-70">Emergency contact</h2>
+<div class="flex items-center justify-between p-4 rounded-[14px] bg-surface-container-low transition-colors hover:bg-surface-container transition-all duration-200">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-slate-200">
+<img alt="Sarah Jenkins" class="w-full h-full object-cover" data-alt="Professional woman portrait with soft natural lighting and a calm, reassuring expression" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyOyy6Mw9hv1ISHjOYI-jxw1DmvbB2M8rKBaloS-0vh0c3-lFh4zhQOlVaQ6uO0-YW1eeIz_6R8caVJoilUa2dG28Ms5fGstx148OuHauv6nqnWggSsCunings4DEQzyg_7940iUynjgp5MjbOHe4f29fTX_ZGfPq4uYGjw5BYxML_sruxUeFz2Ty_X3OOnoDfLAeIAoBLY4BIzLodCz--EY8nwZcsE7xFV_VHPJY4dO41r8s_B1wSKOChzE1Wp54jG_kzDO-phfmi"/>
+</div>
+<div class="flex flex-col">
+<span class="text-[1rem] font-medium text-on-surface">Sarah Jenkins</span>
+<span class="text-[0.875rem] font-normal text-on-surface-variant">+1 (555) 012-3456</span>
+</div>
+</div>
+<button class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center group active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform" data-icon="call">call</span>
+</button>
+</div>
+</div>
+<!-- Emergency Services Shortcut -->
+<div class="space-y-4">
+<div class="flex items-center justify-between p-4 rounded-[14px] border border-error/10 bg-error-container/20 group cursor-pointer active:scale-[0.98] transition-all">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-error/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-error" data-icon="emergency">emergency</span>
+</div>
+<div class="flex flex-col">
+<span class="text-[1rem] font-medium text-error">911 Emergency Services</span>
+<span class="text-[0.875rem] font-normal text-error/70">Local authorities response</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-error opacity-40" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+<!-- Status Context Card (Minimalist Bento Style) -->
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container-lowest p-4 rounded-2xl border border-outline-variant/20 flex flex-col gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]" data-icon="location_on">location_on</span>
+<span class="text-[11px] font-light text-on-surface-variant uppercase tracking-wider">Current Location</span>
+<span class="text-[13px] font-medium text-on-surface leading-tight">241 High St, Palo Alto</span>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-2xl border border-outline-variant/20 flex flex-col gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]" data-icon="battery_charging_full">battery_charging_full</span>
+<span class="text-[11px] font-light text-on-surface-variant uppercase tracking-wider">Device Status</span>
+<span class="text-[13px] font-medium text-on-surface leading-tight">82% • GPS Online</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar Mapping -->
+<nav class="fixed bottom-0 left-0 w-full h-[64px] flex justify-around items-center px-2 pb-safe bg-white border-t border-slate-200 z-50">
+<div class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 transition-transform active:scale-90">
+<span class="material-symbols-outlined mb-1" data-icon="medical_services">medical_services</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide">Guides</span>
+</div>
+<div class="flex flex-col items-center justify-center bg-teal-50 text-teal-700 rounded-2xl px-5 py-1 transition-transform active:scale-90">
+<span class="material-symbols-outlined mb-1" data-icon="emergency" data-weight="fill" style="font-variation-settings: 'FILL' 1;">emergency</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-medium tracking-wide">Emergency</span>
+</div>
+<div class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 transition-transform active:scale-90">
+<span class="material-symbols-outlined mb-1" data-icon="first_aid">wounds_injuries</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide">Supplies</span>
+</div>
+<div class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 transition-transform active:scale-90">
+<span class="material-symbols-outlined mb-1" data-icon="person">person</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide">Profile</span>
+</div>
+</nav>
+</body></html>

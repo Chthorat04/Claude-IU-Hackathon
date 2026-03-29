@@ -1,0 +1,375 @@
+[
+  {
+    "id": "burns_minor",
+    "title": "Minor Burn",
+    "category": "burns",
+    "severity": "guidance_only",
+    "icon": "burns",
+    "check_first": [
+      "Is the skin red but not blistered?",
+      "Is the burn smaller than the person's palm?",
+      "Is it away from the face, hands, feet, or genitals?"
+    ],
+    "do_now": [
+      "Cool the burn under cool (not cold) running water for 10–20 minutes",
+      "Remove jewelry or tight clothing near the burn",
+      "Cover loosely with a sterile non-fluffy dressing or cling wrap",
+      "Give paracetamol or ibuprofen for pain relief if appropriate"
+    ],
+    "do_not": [
+      "Do not use ice, butter, toothpaste, or oily substances",
+      "Do not burst any blisters that form",
+      "Do not remove clothing stuck to the burn",
+      "Do not cover with fluffy cotton wool"
+    ],
+    "when_to_call": [
+      "Burn is larger than the person's palm",
+      "Burn is on the face, hands, feet, genitals, or over a major joint",
+      "Signs of infection appear (increasing pain, redness, swelling, fever)",
+      "The person is a child under 5 or elderly"
+    ],
+    "sources": ["ERC_2025", "RedCross", "SJA_Canada"]
+  },
+  {
+    "id": "burns_severe",
+    "title": "Severe Burn",
+    "category": "burns",
+    "severity": "emergency_risk",
+    "icon": "burns",
+    "check_first": [
+      "Is the burn deep, charred, or affecting multiple layers of skin?",
+      "Is the burn on the face, hands, feet, genitals, or airway (smoke inhalation)?",
+      "Is the person showing signs of shock (pale, cold, rapid breathing)?"
+    ],
+    "do_now": [
+      "Call emergency services immediately (911/999/112)",
+      "Cool the burn under cool running water for up to 20 minutes if safe to do so",
+      "Lay the person down and elevate legs if not a face or neck burn",
+      "Keep the person warm with a blanket — avoid covering the burn",
+      "Monitor breathing and be ready to perform CPR"
+    ],
+    "do_not": [
+      "Do not remove clothing stuck to burned skin",
+      "Do not apply any creams, gels, or ice",
+      "Do not leave the person alone",
+      "Do not give anything by mouth if they may need surgery"
+    ],
+    "when_to_call": [
+      "Always call emergency services for severe burns",
+      "Difficulty breathing or suspected smoke inhalation",
+      "Person becomes unconscious or unresponsive",
+      "Signs of shock present"
+    ],
+    "sources": ["ERC_2025", "RedCross", "SJA_Canada"]
+  },
+  {
+    "id": "bleeding_minor",
+    "title": "Minor Bleeding (Cut/Wound)",
+    "category": "bleeding",
+    "severity": "guidance_only",
+    "icon": "bleeding",
+    "check_first": [
+      "Is the bleeding slow and controllable?",
+      "Is the wound shallow without embedded objects?",
+      "Is there any sign of infection (redness, warmth, swelling, pus)?"
+    ],
+    "do_now": [
+      "Wash your hands or put on gloves if available",
+      "Apply firm direct pressure with a clean cloth or sterile dressing",
+      "Maintain pressure for at least 10 minutes without lifting",
+      "Once bleeding stops, clean the wound gently with clean water",
+      "Apply a sterile dressing or plaster"
+    ],
+    "do_not": [
+      "Do not remove an embedded object — stabilize it in place",
+      "Do not lift the dressing to check — apply more on top",
+      "Do not use a tourniquet for minor bleeding"
+    ],
+    "when_to_call": [
+      "Bleeding does not stop after 10 minutes of firm pressure",
+      "Wound is deep, gaping, or contains foreign objects",
+      "Signs of infection develop within days",
+      "Wound is from an animal bite or puncture"
+    ],
+    "sources": ["ERC_2025", "RedCross", "SJA_Canada"]
+  },
+  {
+    "id": "bleeding_severe",
+    "title": "Severe Bleeding",
+    "category": "bleeding",
+    "severity": "emergency_risk",
+    "icon": "bleeding",
+    "check_first": [
+      "Is the bleeding heavy, spurting, or not controllable?",
+      "Is the person pale, cold, sweating, or confused (signs of shock)?",
+      "Is there an object embedded in the wound?"
+    ],
+    "do_now": [
+      "Call emergency services immediately (911/999/112)",
+      "Apply very firm direct pressure with the cleanest material available",
+      "If a limb, apply a tourniquet 5–7 cm above the wound if bleeding cannot be controlled",
+      "Note the time the tourniquet was applied",
+      "Lay the person down, elevate legs if no spinal injury suspected",
+      "Keep them warm and reassure them while waiting for help"
+    ],
+    "do_not": [
+      "Do not remove an embedded object",
+      "Do not release tourniquet once applied — wait for paramedics",
+      "Do not give anything to eat or drink"
+    ],
+    "when_to_call": [
+      "Always call emergency services for severe uncontrolled bleeding",
+      "Person becomes unconscious",
+      "Signs of shock: pale, rapid breathing, confusion, cold skin"
+    ],
+    "sources": ["ERC_2025", "ICRC", "RedCross"]
+  },
+  {
+    "id": "choking_adult",
+    "title": "Choking — Adult",
+    "category": "choking",
+    "severity": "emergency_risk",
+    "icon": "choking",
+    "check_first": [
+      "Can the person speak, cough, or breathe at all?",
+      "Are they clutching their throat? Turning blue?",
+      "Is it a mild obstruction (coughing) or severe (no air)?"
+    ],
+    "do_now": [
+      "Encourage forceful coughing if the person can cough",
+      "If coughing fails: give up to 5 firm back blows between shoulder blades with heel of hand",
+      "If back blows fail: give up to 5 abdominal thrusts (Heimlich maneuver) — stand behind, push inward and upward",
+      "Alternate 5 back blows and 5 abdominal thrusts",
+      "If person becomes unconscious: call 911/999/112 and begin CPR"
+    ],
+    "do_not": [
+      "Do not perform blind finger sweeps in the mouth",
+      "Do not use abdominal thrusts on pregnant women or infants — use chest thrusts instead",
+      "Do not slap the back if the person is still coughing effectively"
+    ],
+    "when_to_call": [
+      "Object cannot be dislodged after several cycles of back blows and thrusts",
+      "Person becomes unconscious or stops breathing",
+      "Person is pregnant or obese (modified technique needed)"
+    ],
+    "sources": ["ERC_2025", "RedCross", "SJA_Canada"]
+  },
+  {
+    "id": "choking_infant",
+    "title": "Choking — Infant (Under 1 Year)",
+    "category": "choking",
+    "severity": "emergency_risk",
+    "icon": "choking",
+    "check_first": [
+      "Is the infant making any sound, breathing, or coughing?",
+      "Is the infant's face turning red, then blue?",
+      "Is the infant limp or unresponsive?"
+    ],
+    "do_now": [
+      "Hold infant face-down along your forearm supporting the head",
+      "Give 5 firm back blows between the shoulder blades with the heel of your hand",
+      "Turn infant face-up, supporting the head, and give 5 chest thrusts with 2 fingers on the breastbone",
+      "Check mouth and remove any visible object only if you can see it",
+      "Alternate 5 back blows and 5 chest thrusts",
+      "If unconscious: call 999/911/112 and start infant CPR"
+    ],
+    "do_not": [
+      "Do not perform abdominal thrusts (Heimlich) on infants",
+      "Do not do a blind finger sweep — only remove an object if clearly visible",
+      "Do not shake the infant"
+    ],
+    "when_to_call": [
+      "Immediately call 911/999/112 if object cannot be dislodged",
+      "Infant becomes unresponsive",
+      "Infant stops breathing"
+    ],
+    "sources": ["ERC_2025", "RedCross", "SJA_Canada"]
+  },
+  {
+    "id": "fracture",
+    "title": "Fracture (Broken Bone)",
+    "category": "fracture",
+    "severity": "guidance_only",
+    "icon": "fracture",
+    "check_first": [
+      "Is the area painful, swollen, bruised, or deformed?",
+      "Can the person move the injured limb?",
+      "Is a bone visible through the skin (open fracture)?"
+    ],
+    "do_now": [
+      "Keep the person still and do not move the injured limb",
+      "Immobilize the limb in the position found using padding or a splint",
+      "Apply a cold pack wrapped in cloth to reduce swelling",
+      "Elevate the limb if possible and if it doesn't cause more pain",
+      "Seek medical help — most fractures need X-ray and professional treatment"
+    ],
+    "do_not": [
+      "Do not try to straighten or realign the bone",
+      "Do not apply direct pressure to the bone",
+      "Do not move the person if a spinal injury is suspected"
+    ],
+    "when_to_call": [
+      "Open fracture (bone visible through skin)",
+      "Suspected spinal or pelvis fracture",
+      "Person is in severe pain, unconscious, or in shock",
+      "Fracture involves femur (thigh bone) — major blood loss risk"
+    ],
+    "sources": ["ERC_2025", "RedCross", "SJA_Canada"]
+  },
+  {
+    "id": "seizure",
+    "title": "Seizure",
+    "category": "seizure",
+    "severity": "emergency_risk",
+    "icon": "seizure",
+    "check_first": [
+      "Is the person convulsing or having uncontrolled muscle movements?",
+      "How long has the seizure been happening?",
+      "Do you know if the person has epilepsy?"
+    ],
+    "do_now": [
+      "Keep calm — most seizures last less than 3 minutes",
+      "Protect the person from injury: clear hard objects away, cushion the head",
+      "Time the seizure from when it starts",
+      "Turn the person onto their side (recovery position) when convulsions stop",
+      "Stay with them and reassure them as they regain consciousness"
+    ],
+    "do_not": [
+      "Do not restrain the person or hold them down",
+      "Do not put anything in their mouth",
+      "Do not give water or food until fully conscious"
+    ],
+    "when_to_call": [
+      "Seizure lasts more than 5 minutes",
+      "A second seizure follows without the person recovering",
+      "Person does not regain consciousness",
+      "Person is injured, pregnant, or diabetic",
+      "First-ever seizure — always seek medical assessment"
+    ],
+    "sources": ["ERC_2025", "SJA_Canada", "SJA_Condensed"]
+  },
+  {
+    "id": "asthma_attack",
+    "title": "Asthma Attack",
+    "category": "asthma",
+    "severity": "emergency_risk",
+    "icon": "asthma",
+    "check_first": [
+      "Is the person wheezing, coughing, or having difficulty breathing?",
+      "Do they have their reliever inhaler (usually blue)?",
+      "Are they getting worse despite using the inhaler?"
+    ],
+    "do_now": [
+      "Help the person sit upright in a comfortable position — do not lay them down",
+      "Help them use their reliever (blue) inhaler — one puff every 30–60 seconds, up to 10 puffs",
+      "If using a spacer device, attach it to the inhaler",
+      "Stay calm and reassure them — panic worsens breathing",
+      "If no improvement after 10 puffs: call 999/911/112"
+    ],
+    "do_not": [
+      "Do not lay the person down",
+      "Do not leave them alone",
+      "Do not use a preventer (brown/purple) inhaler during an attack"
+    ],
+    "when_to_call": [
+      "No improvement after 10 puffs of reliever inhaler",
+      "Person is too breathless to speak in full sentences",
+      "Lips or fingertips turn blue (cyanosis)",
+      "Person becomes exhausted, confused, or loses consciousness"
+    ],
+    "sources": ["ERC_2025", "RedCross", "SJA_Canada"]
+  },
+  {
+    "id": "cardiac_arrest",
+    "title": "Cardiac Arrest (CPR)",
+    "category": "cardiac",
+    "severity": "emergency_risk",
+    "icon": "cardiac",
+    "check_first": [
+      "Is the person unresponsive — no reaction to shout or touch?",
+      "Are they not breathing normally (no chest rise, gasping, or no breath)?",
+      "Call for an AED while starting CPR"
+    ],
+    "do_now": [
+      "Call 999/911/112 immediately and ask for an AED",
+      "Start chest compressions: place one hand on top of the other on the center of the chest",
+      "Push hard and fast — at least 5–6 cm deep, at a rate of 100–120 per minute",
+      "Give 2 rescue breaths after every 30 compressions (if trained)",
+      "If untrained or unwilling: perform hands-only CPR (continuous compressions)",
+      "Use the AED as soon as it arrives — follow the voice instructions",
+      "Continue until help arrives or the person shows signs of life"
+    ],
+    "do_not": [
+      "Do not stop compressions unless the AED is ready to analyze",
+      "Do not move the person unless there is immediate danger",
+      "Do not wait — every second without CPR reduces survival"
+    ],
+    "when_to_call": [
+      "Always call emergency services immediately",
+      "Whenever a person is unresponsive and not breathing normally"
+    ],
+    "sources": ["ERC_2025", "ICRC", "RedCross", "SJA_Canada"]
+  },
+  {
+    "id": "stroke",
+    "title": "Stroke — Use FAST",
+    "category": "stroke",
+    "severity": "emergency_risk",
+    "icon": "stroke",
+    "check_first": [
+      "FACE: Is one side of the face drooping or numb?",
+      "ARMS: Can they raise both arms equally?",
+      "SPEECH: Is their speech slurred or confused?",
+      "TIME: Time is critical — act now"
+    ],
+    "do_now": [
+      "Call 999/911/112 immediately — stroke is a time-critical emergency",
+      "Note the exact time symptoms started",
+      "Keep the person calm, still, and comfortable — do not give food or water",
+      "Loosen any tight clothing around the neck and chest",
+      "If unconscious but breathing: place in recovery position and monitor",
+      "Be ready to perform CPR if breathing stops"
+    ],
+    "do_not": [
+      "Do not give aspirin unless specifically instructed by emergency services",
+      "Do not give anything to eat or drink — swallowing may be impaired",
+      "Do not leave the person alone"
+    ],
+    "when_to_call": [
+      "Call immediately if ANY of the FAST signs are present",
+      "Even if symptoms seem to pass — a TIA (mini-stroke) needs urgent assessment"
+    ],
+    "sources": ["ERC_2025", "SJA_Canada", "SJA_Condensed"]
+  },
+  {
+    "id": "anaphylaxis",
+    "title": "Severe Allergic Reaction (Anaphylaxis)",
+    "category": "anaphylaxis",
+    "severity": "emergency_risk",
+    "icon": "anaphylaxis",
+    "check_first": [
+      "Is the person experiencing swelling of the throat, lips, or tongue?",
+      "Do they have hives, redness, and difficulty breathing?",
+      "Have they been exposed to a known allergen (e.g., bee sting, peanuts, medication)?"
+    ],
+    "do_now": [
+      "Call 999/911/112 immediately",
+      "If the person has an EpiPen (adrenaline auto-injector): use it now on the outer thigh",
+      "Help them sit in a comfortable position — upright if breathing difficulty, lying down if faint",
+      "A second EpiPen can be given 5–15 minutes later if no improvement",
+      "Monitor breathing and be ready to perform CPR",
+      "Keep them warm and calm while waiting for help"
+    ],
+    "do_not": [
+      "Do not make the person stand or walk",
+      "Do not give antihistamines as a substitute for an EpiPen — they act too slowly",
+      "Do not leave the person alone"
+    ],
+    "when_to_call": [
+      "Always call 999/911/112 — anaphylaxis is life-threatening",
+      "Even if EpiPen was used — effects are temporary",
+      "Person may deteriorate again after initial improvement (biphasic reaction)"
+    ],
+    "sources": ["ERC_2025", "RedCross", "SJA_Canada"]
+  }
+]

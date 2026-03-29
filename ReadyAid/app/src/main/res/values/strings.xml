@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ReadyAid</string>
+    <string name="tagline">Offline, voice-enabled first-aid guidance and SOS — always with you.</string>
+    <string name="disclaimer_title">Important Notice</string>
+    <string name="disclaimer_body">ReadyAid provides educational first-aid guidance based on vetted medical sources. It is not a substitute for professional medical care or emergency services. Always call emergency services (911/999/112) when in doubt.</string>
+    <string name="disclaimer_accept">I Understand</string>
+    <string name="sos_button_label">SOS</string>
+    <string name="press_to_speak">Press to speak</string>
+    <string name="listening">Listening…</string>
+    <string name="processing">Processing…</string>
+    <string name="ready_offline">Ready offline</string>
+</resources>

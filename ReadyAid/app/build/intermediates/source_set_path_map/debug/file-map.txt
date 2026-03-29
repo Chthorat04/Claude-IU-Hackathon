@@ -1,0 +1,73 @@
+com.readyaid.app-material3-release-0 /Users/chetanathorat/.gradle/caches/transforms-3/0167aad7dbd4b1ffebaa6fc4aa07b00e/transformed/material3-release/res
+com.readyaid.app-savedstate-ktx-1.2.1-1 /Users/chetanathorat/.gradle/caches/transforms-3/01d5de3d22d9d7c1699d5b78bcdbfe12/transformed/savedstate-ktx-1.2.1/res
+com.readyaid.app-activity-ktx-1.8.2-2 /Users/chetanathorat/.gradle/caches/transforms-3/10d3c25b1b7886746a4d07e460e636b1/transformed/activity-ktx-1.8.2/res
+com.readyaid.app-ui-test-manifest-1.6.1-3 /Users/chetanathorat/.gradle/caches/transforms-3/1162446befa28671b070b53d381ccc46/transformed/ui-test-manifest-1.6.1/res
+com.readyaid.app-fragment-1.5.1-4 /Users/chetanathorat/.gradle/caches/transforms-3/163177a2f1004e822599e71aea9cbb8a/transformed/fragment-1.5.1/res
+com.readyaid.app-emoji2-1.3.0-5 /Users/chetanathorat/.gradle/caches/transforms-3/18acd99cb0c49009de99ed549c8942d8/transformed/emoji2-1.3.0/res
+com.readyaid.app-viewpager2-1.0.0-6 /Users/chetanathorat/.gradle/caches/transforms-3/2101e4bb4b7fd33c3516d4661783ca9f/transformed/viewpager2-1.0.0/res
+com.readyaid.app-lifecycle-livedata-2.7.0-7 /Users/chetanathorat/.gradle/caches/transforms-3/2601d41c740a406412c3b10955886b4c/transformed/lifecycle-livedata-2.7.0/res
+com.readyaid.app-recyclerview-1.1.0-8 /Users/chetanathorat/.gradle/caches/transforms-3/26be53bfe8907b95ad4f4913d3773f11/transformed/recyclerview-1.1.0/res
+com.readyaid.app-emoji2-views-helper-1.3.0-9 /Users/chetanathorat/.gradle/caches/transforms-3/2736a092d81b863d99092aa8a2356ee5/transformed/emoji2-views-helper-1.3.0/res
+com.readyaid.app-activity-1.8.2-10 /Users/chetanathorat/.gradle/caches/transforms-3/27f2e128ce9ae53d66974d031222012f/transformed/activity-1.8.2/res
+com.readyaid.app-lifecycle-runtime-ktx-2.7.0-11 /Users/chetanathorat/.gradle/caches/transforms-3/41c04f4b3a25268e6b3698b521361eca/transformed/lifecycle-runtime-ktx-2.7.0/res
+com.readyaid.app-animation-release-12 /Users/chetanathorat/.gradle/caches/transforms-3/442ba225cc6ac93c3bdd834b0630f700/transformed/animation-release/res
+com.readyaid.app-hilt-navigation-1.2.0-13 /Users/chetanathorat/.gradle/caches/transforms-3/4bff41c4874a4b3e855fc258e94c574b/transformed/hilt-navigation-1.2.0/res
+com.readyaid.app-constraintlayout-2.0.1-14 /Users/chetanathorat/.gradle/caches/transforms-3/5157ce2a3bde7f3a9d15354730fd24a3/transformed/constraintlayout-2.0.1/res
+com.readyaid.app-core-ktx-1.12.0-15 /Users/chetanathorat/.gradle/caches/transforms-3/51cdd46c17cee50ecc2d43c491a8ac37/transformed/core-ktx-1.12.0/res
+com.readyaid.app-lifecycle-process-2.7.0-16 /Users/chetanathorat/.gradle/caches/transforms-3/5364f1a2fea95bcc509f152c3dfe3963/transformed/lifecycle-process-2.7.0/res
+com.readyaid.app-lifecycle-viewmodel-2.7.0-17 /Users/chetanathorat/.gradle/caches/transforms-3/5572d3a7fea6ce1ca652059326349e7f/transformed/lifecycle-viewmodel-2.7.0/res
+com.readyaid.app-appcompat-1.6.1-18 /Users/chetanathorat/.gradle/caches/transforms-3/565f1b6f3ed61abc4c82f48e6b81c9c8/transformed/appcompat-1.6.1/res
+com.readyaid.app-core-runtime-2.2.0-19 /Users/chetanathorat/.gradle/caches/transforms-3/57c2f9dd21268e0f6c4d5acf5b8f0c20/transformed/core-runtime-2.2.0/res
+com.readyaid.app-ui-util-release-20 /Users/chetanathorat/.gradle/caches/transforms-3/5b3b719e77654c6a4ddb4ddd8b05b8be/transformed/ui-util-release/res
+com.readyaid.app-startup-runtime-1.1.1-21 /Users/chetanathorat/.gradle/caches/transforms-3/5d680c0d2ceb4de622c677a4d88bd455/transformed/startup-runtime-1.1.1/res
+com.readyaid.app-sqlite-2.4.0-22 /Users/chetanathorat/.gradle/caches/transforms-3/63dcefdac7b4dc3fbb243893a9c1262c/transformed/sqlite-2.4.0/res
+com.readyaid.app-appcompat-resources-1.6.1-23 /Users/chetanathorat/.gradle/caches/transforms-3/6992fa2ffad2aa22136b03738e1a3634/transformed/appcompat-resources-1.6.1/res
+com.readyaid.app-ui-text-release-24 /Users/chetanathorat/.gradle/caches/transforms-3/6b935b9ac40d2ab6aeb0cd2639dcb731/transformed/ui-text-release/res
+com.readyaid.app-room-runtime-2.6.1-25 /Users/chetanathorat/.gradle/caches/transforms-3/6e09c61f8367bf554b9ee2b4539c01bc/transformed/room-runtime-2.6.1/res
+com.readyaid.app-ui-tooling-release-26 /Users/chetanathorat/.gradle/caches/transforms-3/71049d9ed545c9e954bb76398d015194/transformed/ui-tooling-release/res
+com.readyaid.app-activity-compose-1.8.2-27 /Users/chetanathorat/.gradle/caches/transforms-3/7a90c06e877e6423a9cd04f06bf54cdc/transformed/activity-compose-1.8.2/res
+com.readyaid.app-transition-1.2.0-28 /Users/chetanathorat/.gradle/caches/transforms-3/7ac4d287dfeb929ef965cc15ead6ce4c/transformed/transition-1.2.0/res
+com.readyaid.app-lifecycle-runtime-2.7.0-29 /Users/chetanathorat/.gradle/caches/transforms-3/7c95caf3f4ce4ef1b3e8ac4f824c1424/transformed/lifecycle-runtime-2.7.0/res
+com.readyaid.app-material-1.11.0-30 /Users/chetanathorat/.gradle/caches/transforms-3/7d1b23488635f764b0a970260c11ee07/transformed/material-1.11.0/res
+com.readyaid.app-ui-geometry-release-31 /Users/chetanathorat/.gradle/caches/transforms-3/801707f6b842a68c12134f68d0efc926/transformed/ui-geometry-release/res
+com.readyaid.app-navigation-runtime-ktx-2.7.7-32 /Users/chetanathorat/.gradle/caches/transforms-3/86e239052337a217e818b7877991d12b/transformed/navigation-runtime-ktx-2.7.7/res
+com.readyaid.app-room-ktx-2.6.1-33 /Users/chetanathorat/.gradle/caches/transforms-3/88c4f695d992e8e19d61dd662f9b25f9/transformed/room-ktx-2.6.1/res
+com.readyaid.app-annotation-experimental-1.4.0-34 /Users/chetanathorat/.gradle/caches/transforms-3/898d18a0c95bbe979e01aae48e2fa508/transformed/annotation-experimental-1.4.0/res
+com.readyaid.app-core-1.12.0-35 /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/res
+com.readyaid.app-cardview-1.0.0-36 /Users/chetanathorat/.gradle/caches/transforms-3/98d3015c3eebc122787d1d49f901c44f/transformed/cardview-1.0.0/res
+com.readyaid.app-lifecycle-viewmodel-compose-2.7.0-37 /Users/chetanathorat/.gradle/caches/transforms-3/9a6b03d6e519b076ce395fd4e477b243/transformed/lifecycle-viewmodel-compose-2.7.0/res
+com.readyaid.app-navigation-runtime-2.7.7-38 /Users/chetanathorat/.gradle/caches/transforms-3/9b0c052d27002fb98b5eb68c62074147/transformed/navigation-runtime-2.7.7/res
+com.readyaid.app-runtime-saveable-release-39 /Users/chetanathorat/.gradle/caches/transforms-3/9e1e68aa0e05377d4ff8d117a58bd4fb/transformed/runtime-saveable-release/res
+com.readyaid.app-lifecycle-viewmodel-savedstate-2.7.0-40 /Users/chetanathorat/.gradle/caches/transforms-3/9ee3a14adcefc97a33aece9976968d42/transformed/lifecycle-viewmodel-savedstate-2.7.0/res
+com.readyaid.app-animation-core-release-41 /Users/chetanathorat/.gradle/caches/transforms-3/a208a915121b1e68437d2be6cd9077f9/transformed/animation-core-release/res
+com.readyaid.app-ui-tooling-data-release-42 /Users/chetanathorat/.gradle/caches/transforms-3/a559eae969426e9d8c12dbc00b2887b2/transformed/ui-tooling-data-release/res
+com.readyaid.app-ui-graphics-release-43 /Users/chetanathorat/.gradle/caches/transforms-3/a6a2c84d06537acba74bbdea57f20bf0/transformed/ui-graphics-release/res
+com.readyaid.app-sqlite-framework-2.4.0-44 /Users/chetanathorat/.gradle/caches/transforms-3/b0b0c2d56d91fe637032c8bfd8fc0752/transformed/sqlite-framework-2.4.0/res
+com.readyaid.app-ui-unit-release-45 /Users/chetanathorat/.gradle/caches/transforms-3/b40326625d2fefcbd8e1989de6c54103/transformed/ui-unit-release/res
+com.readyaid.app-drawerlayout-1.1.1-46 /Users/chetanathorat/.gradle/caches/transforms-3/b47803719860b4879fe53de3816b4fd6/transformed/drawerlayout-1.1.1/res
+com.readyaid.app-navigation-common-2.7.7-47 /Users/chetanathorat/.gradle/caches/transforms-3/b5542f58a67c6caa9308c970cda6b7b5/transformed/navigation-common-2.7.7/res
+com.readyaid.app-hilt-navigation-compose-1.2.0-48 /Users/chetanathorat/.gradle/caches/transforms-3/b62b33bcbb4556dba8b1e5b6f0632216/transformed/hilt-navigation-compose-1.2.0/res
+com.readyaid.app-ui-release-49 /Users/chetanathorat/.gradle/caches/transforms-3/bd4b72cfcc124405371c5bf4d87145ab/transformed/ui-release/res
+com.readyaid.app-lifecycle-livedata-core-ktx-2.7.0-50 /Users/chetanathorat/.gradle/caches/transforms-3/c0f52ea9ca97256e379e82224b43cdd6/transformed/lifecycle-livedata-core-ktx-2.7.0/res
+com.readyaid.app-lifecycle-livedata-core-2.7.0-51 /Users/chetanathorat/.gradle/caches/transforms-3/c2c7e53fee52a46df06277330b50ee04/transformed/lifecycle-livedata-core-2.7.0/res
+com.readyaid.app-foundation-release-52 /Users/chetanathorat/.gradle/caches/transforms-3/c5028359f518c2f9ff7b3882402c9d3e/transformed/foundation-release/res
+com.readyaid.app-lifecycle-viewmodel-ktx-2.7.0-53 /Users/chetanathorat/.gradle/caches/transforms-3/ce8b29562e6bdeac0919210b002c858f/transformed/lifecycle-viewmodel-ktx-2.7.0/res
+com.readyaid.app-navigation-common-ktx-2.7.7-54 /Users/chetanathorat/.gradle/caches/transforms-3/d2782de2e64e50bddf2c4a31e0ca288e/transformed/navigation-common-ktx-2.7.7/res
+com.readyaid.app-profileinstaller-1.3.0-55 /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/res
+com.readyaid.app-ui-tooling-preview-release-56 /Users/chetanathorat/.gradle/caches/transforms-3/daf69a46a7c0ec72cfafecb9455aa742/transformed/ui-tooling-preview-release/res
+com.readyaid.app-runtime-release-57 /Users/chetanathorat/.gradle/caches/transforms-3/e2965ebe8e77a81e090aa7690c2b0132/transformed/runtime-release/res
+com.readyaid.app-material-release-58 /Users/chetanathorat/.gradle/caches/transforms-3/e31ec9938c398143e443110cea962895/transformed/material-release/res
+com.readyaid.app-material-icons-extended-release-59 /Users/chetanathorat/.gradle/caches/transforms-3/e5197804c99c17c768792be7abfab1b0/transformed/material-icons-extended-release/res
+com.readyaid.app-coordinatorlayout-1.1.0-60 /Users/chetanathorat/.gradle/caches/transforms-3/e70b95d3fdd32fe1dee6b5fbcf9eb537/transformed/coordinatorlayout-1.1.0/res
+com.readyaid.app-savedstate-1.2.1-61 /Users/chetanathorat/.gradle/caches/transforms-3/eb7250de3340f6c85842918fc6407f1f/transformed/savedstate-1.2.1/res
+com.readyaid.app-foundation-layout-release-62 /Users/chetanathorat/.gradle/caches/transforms-3/eda495ba61e65b327f9f8ea61874ba15/transformed/foundation-layout-release/res
+com.readyaid.app-navigation-compose-2.7.7-63 /Users/chetanathorat/.gradle/caches/transforms-3/f1fdb243d939410599f79bb9c81dc5dc/transformed/navigation-compose-2.7.7/res
+com.readyaid.app-material-ripple-release-64 /Users/chetanathorat/.gradle/caches/transforms-3/f23e11f7f92fcff58dda5211dab0509a/transformed/material-ripple-release/res
+com.readyaid.app-material-icons-core-release-65 /Users/chetanathorat/.gradle/caches/transforms-3/f66e8e94bd7126ff587172a68520560b/transformed/material-icons-core-release/res
+com.readyaid.app-customview-poolingcontainer-1.0.0-66 /Users/chetanathorat/.gradle/caches/transforms-3/f871669d62f4fb3a42c62b62c4e498fc/transformed/customview-poolingcontainer-1.0.0/res
+com.readyaid.app-resValues-67 /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/build/generated/res/resValues/debug
+com.readyaid.app-packageDebugResources-68 /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.readyaid.app-packageDebugResources-69 /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.readyaid.app-merged_res-70 /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/build/intermediates/merged_res/debug
+com.readyaid.app-debug-71 /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/debug/res
+com.readyaid.app-main-72 /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/res

@@ -1,0 +1,479 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:2:1-36:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/b62b33bcbb4556dba8b1e5b6f0632216/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/4bff41c4874a4b3e855fc258e94c574b/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/b5542f58a67c6caa9308c970cda6b7b5/transformed/navigation-common-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/d2782de2e64e50bddf2c4a31e0ca288e/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/9b0c052d27002fb98b5eb68c62074147/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/86e239052337a217e818b7877991d12b/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/f1fdb243d939410599f79bb9c81dc5dc/transformed/navigation-compose-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.11.0] /Users/chetanathorat/.gradle/caches/transforms-3/7d1b23488635f764b0a970260c11ee07/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/0167aad7dbd4b1ffebaa6fc4aa07b00e/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/e31ec9938c398143e443110cea962895/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/f66e8e94bd7126ff587172a68520560b/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/e5197804c99c17c768792be7abfab1b0/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/f23e11f7f92fcff58dda5211dab0509a/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/c5028359f518c2f9ff7b3882402c9d3e/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/eda495ba61e65b327f9f8ea61874ba15/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/a208a915121b1e68437d2be6cd9077f9/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/442ba225cc6ac93c3bdd834b0630f700/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/a559eae969426e9d8c12dbc00b2887b2/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/b40326625d2fefcbd8e1989de6c54103/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/801707f6b842a68c12134f68d0efc926/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/5b3b719e77654c6a4ddb4ddd8b05b8be/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6b935b9ac40d2ab6aeb0cd2639dcb731/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/daf69a46a7c0ec72cfafecb9455aa742/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/a6a2c84d06537acba74bbdea57f20bf0/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/bd4b72cfcc124405371c5bf4d87145ab/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/1162446befa28671b070b53d381ccc46/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/71049d9ed545c9e954bb76398d015194/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/chetanathorat/.gradle/caches/transforms-3/5157ce2a3bde7f3a9d15354730fd24a3/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6992fa2ffad2aa22136b03738e1a3634/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/565f1b6f3ed61abc4c82f48e6b81c9c8/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:hilt-android:2.49] /Users/chetanathorat/.gradle/caches/transforms-3/5bcb97c0e16b66424548862fd82f5ec3/transformed/hilt-android-2.49/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/2101e4bb4b7fd33c3516d4661783ca9f/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/chetanathorat/.gradle/caches/transforms-3/163177a2f1004e822599e71aea9cbb8a/transformed/fragment-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.2] /Users/chetanathorat/.gradle/caches/transforms-3/27f2e128ce9ae53d66974d031222012f/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/chetanathorat/.gradle/caches/transforms-3/7a90c06e877e6423a9cd04f06bf54cdc/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/chetanathorat/.gradle/caches/transforms-3/10d3c25b1b7886746a4d07e460e636b1/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/b19fe98a1fbc68e87af8fa112e4555eb/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/bd446c09a291b952f9f0873feaacfcfa/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/b0d512b8ba76fb2e4d28827ab42a91aa/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/2736a092d81b863d99092aa8a2356ee5/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/18acd99cb0c49009de99ed549c8942d8/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/5364f1a2fea95bcc509f152c3dfe3963/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/c0f52ea9ca97256e379e82224b43cdd6/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/2601d41c740a406412c3b10955886b4c/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/c2c7e53fee52a46df06277330b50ee04/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/chetanathorat/.gradle/caches/transforms-3/01d5de3d22d9d7c1699d5b78bcdbfe12/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/chetanathorat/.gradle/caches/transforms-3/eb7250de3340f6c85842918fc6407f1f/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/ce8b29562e6bdeac0919210b002c858f/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/5572d3a7fea6ce1ca652059326349e7f/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/9ee3a14adcefc97a33aece9976968d42/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/f871669d62f4fb3a42c62b62c4e498fc/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/51cdd46c17cee50ecc2d43c491a8ac37/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/e70b95d3fdd32fe1dee6b5fbcf9eb537/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/b47803719860b4879fe53de3816b4fd6/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/7ac4d287dfeb929ef965cc15ead6ce4c/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/f79c4fc1475b34c4ca8ace4c06cf71fd/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/e2a70d1aba50b264055965716d0cba39/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/26be53bfe8907b95ad4f4913d3773f11/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/ac9b5c1fcb63a367c02e77ba928958fa/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/c591adec62410209553162e31191813e/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/eba885e1cd5e6dc281f5618d3e7386cf/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/7c95caf3f4ce4ef1b3e8ac4f824c1424/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/9a6b03d6e519b076ce395fd4e477b243/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/41c04f4b3a25268e6b3698b521361eca/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6e09c61f8367bf554b9ee2b4539c01bc/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/88c4f695d992e8e19d61dd662f9b25f9/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/9e1e68aa0e05377d4ff8d117a58bd4fb/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/e2965ebe8e77a81e090aa7690c2b0132/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/chetanathorat/.gradle/caches/transforms-3/b0b0c2d56d91fe637032c8bfd8fc0752/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/chetanathorat/.gradle/caches/transforms-3/63dcefdac7b4dc3fbb243893a9c1262c/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/chetanathorat/.gradle/caches/transforms-3/898d18a0c95bbe979e01aae48e2fa508/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/b126671eaa72ecca1973a0672a4ff115/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/98d3015c3eebc122787d1d49f901c44f/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/57c2f9dd21268e0f6c4d5acf5b8f0c20/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/4c0fda88b5538b6d927db82a1b3e616a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/04153281886c669cefb2abb78ab61e24/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/5d680c0d2ceb4de622c677a4d88bd455/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/cd16de6c1829859bce3922fca618d8d4/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/e25c52d64f5a67161d1f5689ad77dda9/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/7e229dc1317e660a2b6e3039502cc212/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/5e5210ecaebc915e18a16b7a33846e06/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.49] /Users/chetanathorat/.gradle/caches/transforms-3/d16f5880bb8e4c90c465ffba1837d232/transformed/dagger-lint-aar-2.49/AndroidManifest.xml:16:1-19:12
+	package
+		INJECTED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:7:5-69
+	android:name
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:7:22-66
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:8:22-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:9:22-76
+application
+ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:11:5-34:19
+INJECTED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:11:5-34:19
+MERGED from [com.google.android.material:material:1.11.0] /Users/chetanathorat/.gradle/caches/transforms-3/7d1b23488635f764b0a970260c11ee07/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /Users/chetanathorat/.gradle/caches/transforms-3/7d1b23488635f764b0a970260c11ee07/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/1162446befa28671b070b53d381ccc46/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/1162446befa28671b070b53d381ccc46/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/71049d9ed545c9e954bb76398d015194/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/71049d9ed545c9e954bb76398d015194/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/chetanathorat/.gradle/caches/transforms-3/5157ce2a3bde7f3a9d15354730fd24a3/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/chetanathorat/.gradle/caches/transforms-3/5157ce2a3bde7f3a9d15354730fd24a3/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/18acd99cb0c49009de99ed549c8942d8/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/18acd99cb0c49009de99ed549c8942d8/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/5364f1a2fea95bcc509f152c3dfe3963/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/5364f1a2fea95bcc509f152c3dfe3963/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6e09c61f8367bf554b9ee2b4539c01bc/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6e09c61f8367bf554b9ee2b4539c01bc/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/b126671eaa72ecca1973a0672a4ff115/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/b126671eaa72ecca1973a0672a4ff115/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/5d680c0d2ceb4de622c677a4d88bd455/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/5d680c0d2ceb4de622c677a4d88bd455/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml
+	android:roundIcon
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:16:9-43
+	android:networkSecurityConfig
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:22:9-69
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:17:9-41
+	android:fullBackupContent
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:15:9-54
+	tools:targetApi
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:23:9-29
+	android:allowBackup
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:20:9-46
+	android:dataExtractionRules
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:14:9-65
+	android:usesCleartextTraffic
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:21:9-44
+	android:name
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:12:9-44
+activity#com.readyaid.MainActivity
+ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:24:9-33:20
+	android:exported
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:26:13-36
+	android:theme
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:27:13-50
+	android:name
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:25:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml:31:27-74
+uses-sdk
+INJECTED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml
+INJECTED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/b62b33bcbb4556dba8b1e5b6f0632216/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/b62b33bcbb4556dba8b1e5b6f0632216/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/4bff41c4874a4b3e855fc258e94c574b/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/4bff41c4874a4b3e855fc258e94c574b/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/b5542f58a67c6caa9308c970cda6b7b5/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/b5542f58a67c6caa9308c970cda6b7b5/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/d2782de2e64e50bddf2c4a31e0ca288e/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/d2782de2e64e50bddf2c4a31e0ca288e/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/9b0c052d27002fb98b5eb68c62074147/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/9b0c052d27002fb98b5eb68c62074147/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/86e239052337a217e818b7877991d12b/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/86e239052337a217e818b7877991d12b/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/f1fdb243d939410599f79bb9c81dc5dc/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /Users/chetanathorat/.gradle/caches/transforms-3/f1fdb243d939410599f79bb9c81dc5dc/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/chetanathorat/.gradle/caches/transforms-3/7d1b23488635f764b0a970260c11ee07/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/chetanathorat/.gradle/caches/transforms-3/7d1b23488635f764b0a970260c11ee07/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/0167aad7dbd4b1ffebaa6fc4aa07b00e/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/0167aad7dbd4b1ffebaa6fc4aa07b00e/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/e31ec9938c398143e443110cea962895/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/e31ec9938c398143e443110cea962895/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/f66e8e94bd7126ff587172a68520560b/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/f66e8e94bd7126ff587172a68520560b/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/e5197804c99c17c768792be7abfab1b0/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/e5197804c99c17c768792be7abfab1b0/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/f23e11f7f92fcff58dda5211dab0509a/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/f23e11f7f92fcff58dda5211dab0509a/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/c5028359f518c2f9ff7b3882402c9d3e/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/c5028359f518c2f9ff7b3882402c9d3e/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/eda495ba61e65b327f9f8ea61874ba15/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/eda495ba61e65b327f9f8ea61874ba15/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/a208a915121b1e68437d2be6cd9077f9/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/a208a915121b1e68437d2be6cd9077f9/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/442ba225cc6ac93c3bdd834b0630f700/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/442ba225cc6ac93c3bdd834b0630f700/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/a559eae969426e9d8c12dbc00b2887b2/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/a559eae969426e9d8c12dbc00b2887b2/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/b40326625d2fefcbd8e1989de6c54103/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/b40326625d2fefcbd8e1989de6c54103/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/801707f6b842a68c12134f68d0efc926/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/801707f6b842a68c12134f68d0efc926/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/5b3b719e77654c6a4ddb4ddd8b05b8be/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/5b3b719e77654c6a4ddb4ddd8b05b8be/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6b935b9ac40d2ab6aeb0cd2639dcb731/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6b935b9ac40d2ab6aeb0cd2639dcb731/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/daf69a46a7c0ec72cfafecb9455aa742/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/daf69a46a7c0ec72cfafecb9455aa742/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/a6a2c84d06537acba74bbdea57f20bf0/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/a6a2c84d06537acba74bbdea57f20bf0/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/bd4b72cfcc124405371c5bf4d87145ab/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/bd4b72cfcc124405371c5bf4d87145ab/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/1162446befa28671b070b53d381ccc46/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/1162446befa28671b070b53d381ccc46/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/71049d9ed545c9e954bb76398d015194/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/71049d9ed545c9e954bb76398d015194/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/chetanathorat/.gradle/caches/transforms-3/5157ce2a3bde7f3a9d15354730fd24a3/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/chetanathorat/.gradle/caches/transforms-3/5157ce2a3bde7f3a9d15354730fd24a3/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6992fa2ffad2aa22136b03738e1a3634/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6992fa2ffad2aa22136b03738e1a3634/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/565f1b6f3ed61abc4c82f48e6b81c9c8/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/565f1b6f3ed61abc4c82f48e6b81c9c8/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:hilt-android:2.49] /Users/chetanathorat/.gradle/caches/transforms-3/5bcb97c0e16b66424548862fd82f5ec3/transformed/hilt-android-2.49/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.49] /Users/chetanathorat/.gradle/caches/transforms-3/5bcb97c0e16b66424548862fd82f5ec3/transformed/hilt-android-2.49/AndroidManifest.xml:18:3-42
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/2101e4bb4b7fd33c3516d4661783ca9f/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/2101e4bb4b7fd33c3516d4661783ca9f/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/chetanathorat/.gradle/caches/transforms-3/163177a2f1004e822599e71aea9cbb8a/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/chetanathorat/.gradle/caches/transforms-3/163177a2f1004e822599e71aea9cbb8a/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.2] /Users/chetanathorat/.gradle/caches/transforms-3/27f2e128ce9ae53d66974d031222012f/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /Users/chetanathorat/.gradle/caches/transforms-3/27f2e128ce9ae53d66974d031222012f/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/chetanathorat/.gradle/caches/transforms-3/7a90c06e877e6423a9cd04f06bf54cdc/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /Users/chetanathorat/.gradle/caches/transforms-3/7a90c06e877e6423a9cd04f06bf54cdc/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/chetanathorat/.gradle/caches/transforms-3/10d3c25b1b7886746a4d07e460e636b1/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /Users/chetanathorat/.gradle/caches/transforms-3/10d3c25b1b7886746a4d07e460e636b1/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/b19fe98a1fbc68e87af8fa112e4555eb/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/b19fe98a1fbc68e87af8fa112e4555eb/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/bd446c09a291b952f9f0873feaacfcfa/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/bd446c09a291b952f9f0873feaacfcfa/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/b0d512b8ba76fb2e4d28827ab42a91aa/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/b0d512b8ba76fb2e4d28827ab42a91aa/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/2736a092d81b863d99092aa8a2356ee5/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/2736a092d81b863d99092aa8a2356ee5/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/18acd99cb0c49009de99ed549c8942d8/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/18acd99cb0c49009de99ed549c8942d8/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/5364f1a2fea95bcc509f152c3dfe3963/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/5364f1a2fea95bcc509f152c3dfe3963/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/c0f52ea9ca97256e379e82224b43cdd6/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/c0f52ea9ca97256e379e82224b43cdd6/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/2601d41c740a406412c3b10955886b4c/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/2601d41c740a406412c3b10955886b4c/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/c2c7e53fee52a46df06277330b50ee04/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/c2c7e53fee52a46df06277330b50ee04/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/chetanathorat/.gradle/caches/transforms-3/01d5de3d22d9d7c1699d5b78bcdbfe12/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/chetanathorat/.gradle/caches/transforms-3/01d5de3d22d9d7c1699d5b78bcdbfe12/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/chetanathorat/.gradle/caches/transforms-3/eb7250de3340f6c85842918fc6407f1f/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/chetanathorat/.gradle/caches/transforms-3/eb7250de3340f6c85842918fc6407f1f/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/ce8b29562e6bdeac0919210b002c858f/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/ce8b29562e6bdeac0919210b002c858f/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/5572d3a7fea6ce1ca652059326349e7f/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/5572d3a7fea6ce1ca652059326349e7f/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/9ee3a14adcefc97a33aece9976968d42/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/9ee3a14adcefc97a33aece9976968d42/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/f871669d62f4fb3a42c62b62c4e498fc/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/f871669d62f4fb3a42c62b62c4e498fc/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/51cdd46c17cee50ecc2d43c491a8ac37/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/51cdd46c17cee50ecc2d43c491a8ac37/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/e70b95d3fdd32fe1dee6b5fbcf9eb537/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/e70b95d3fdd32fe1dee6b5fbcf9eb537/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/b47803719860b4879fe53de3816b4fd6/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/b47803719860b4879fe53de3816b4fd6/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/7ac4d287dfeb929ef965cc15ead6ce4c/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/7ac4d287dfeb929ef965cc15ead6ce4c/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/f79c4fc1475b34c4ca8ace4c06cf71fd/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/f79c4fc1475b34c4ca8ace4c06cf71fd/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/e2a70d1aba50b264055965716d0cba39/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/e2a70d1aba50b264055965716d0cba39/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/26be53bfe8907b95ad4f4913d3773f11/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/26be53bfe8907b95ad4f4913d3773f11/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/ac9b5c1fcb63a367c02e77ba928958fa/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/ac9b5c1fcb63a367c02e77ba928958fa/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/c591adec62410209553162e31191813e/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/chetanathorat/.gradle/caches/transforms-3/c591adec62410209553162e31191813e/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/eba885e1cd5e6dc281f5618d3e7386cf/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/eba885e1cd5e6dc281f5618d3e7386cf/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/7c95caf3f4ce4ef1b3e8ac4f824c1424/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/7c95caf3f4ce4ef1b3e8ac4f824c1424/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/9a6b03d6e519b076ce395fd4e477b243/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/9a6b03d6e519b076ce395fd4e477b243/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/41c04f4b3a25268e6b3698b521361eca/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/41c04f4b3a25268e6b3698b521361eca/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6e09c61f8367bf554b9ee2b4539c01bc/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6e09c61f8367bf554b9ee2b4539c01bc/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/88c4f695d992e8e19d61dd662f9b25f9/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/88c4f695d992e8e19d61dd662f9b25f9/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/9e1e68aa0e05377d4ff8d117a58bd4fb/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/9e1e68aa0e05377d4ff8d117a58bd4fb/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/e2965ebe8e77a81e090aa7690c2b0132/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/e2965ebe8e77a81e090aa7690c2b0132/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/chetanathorat/.gradle/caches/transforms-3/b0b0c2d56d91fe637032c8bfd8fc0752/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/chetanathorat/.gradle/caches/transforms-3/b0b0c2d56d91fe637032c8bfd8fc0752/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/chetanathorat/.gradle/caches/transforms-3/63dcefdac7b4dc3fbb243893a9c1262c/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/chetanathorat/.gradle/caches/transforms-3/63dcefdac7b4dc3fbb243893a9c1262c/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/chetanathorat/.gradle/caches/transforms-3/898d18a0c95bbe979e01aae48e2fa508/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/chetanathorat/.gradle/caches/transforms-3/898d18a0c95bbe979e01aae48e2fa508/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/b126671eaa72ecca1973a0672a4ff115/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/b126671eaa72ecca1973a0672a4ff115/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/98d3015c3eebc122787d1d49f901c44f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/98d3015c3eebc122787d1d49f901c44f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/57c2f9dd21268e0f6c4d5acf5b8f0c20/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/chetanathorat/.gradle/caches/transforms-3/57c2f9dd21268e0f6c4d5acf5b8f0c20/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/4c0fda88b5538b6d927db82a1b3e616a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/4c0fda88b5538b6d927db82a1b3e616a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/04153281886c669cefb2abb78ab61e24/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/04153281886c669cefb2abb78ab61e24/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/5d680c0d2ceb4de622c677a4d88bd455/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/5d680c0d2ceb4de622c677a4d88bd455/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/cd16de6c1829859bce3922fca618d8d4/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/cd16de6c1829859bce3922fca618d8d4/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/e25c52d64f5a67161d1f5689ad77dda9/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/e25c52d64f5a67161d1f5689ad77dda9/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/7e229dc1317e660a2b6e3039502cc212/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/7e229dc1317e660a2b6e3039502cc212/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/5e5210ecaebc915e18a16b7a33846e06/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/chetanathorat/.gradle/caches/transforms-3/5e5210ecaebc915e18a16b7a33846e06/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-lint-aar:2.49] /Users/chetanathorat/.gradle/caches/transforms-3/d16f5880bb8e4c90c465ffba1837d232/transformed/dagger-lint-aar-2.49/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.49] /Users/chetanathorat/.gradle/caches/transforms-3/d16f5880bb8e4c90c465ffba1837d232/transformed/dagger-lint-aar-2.49/AndroidManifest.xml:18:3-42
+	android:targetSdkVersion
+		INJECTED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/chetanathorat/Desktop/Claude IU hackathon new/ReadyAid/app/src/main/AndroidManifest.xml
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/1162446befa28671b070b53d381ccc46/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/1162446befa28671b070b53d381ccc46/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/1162446befa28671b070b53d381ccc46/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:24:13-63
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/71049d9ed545c9e954bb76398d015194/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/71049d9ed545c9e954bb76398d015194/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/71049d9ed545c9e954bb76398d015194/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/18acd99cb0c49009de99ed549c8942d8/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/5364f1a2fea95bcc509f152c3dfe3963/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/5364f1a2fea95bcc509f152c3dfe3963/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/5d680c0d2ceb4de622c677a4d88bd455/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/chetanathorat/.gradle/caches/transforms-3/5d680c0d2ceb4de622c677a4d88bd455/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/18acd99cb0c49009de99ed549c8942d8/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/18acd99cb0c49009de99ed549c8942d8/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/18acd99cb0c49009de99ed549c8942d8/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/18acd99cb0c49009de99ed549c8942d8/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/18acd99cb0c49009de99ed549c8942d8/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/18acd99cb0c49009de99ed549c8942d8/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/18acd99cb0c49009de99ed549c8942d8/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/5364f1a2fea95bcc509f152c3dfe3963/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/5364f1a2fea95bcc509f152c3dfe3963/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/chetanathorat/.gradle/caches/transforms-3/5364f1a2fea95bcc509f152c3dfe3963/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.readyaid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.readyaid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/chetanathorat/.gradle/caches/transforms-3/926461914ae11b32f8fb6417a73fda97/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6e09c61f8367bf554b9ee2b4539c01bc/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6e09c61f8367bf554b9ee2b4539c01bc/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6e09c61f8367bf554b9ee2b4539c01bc/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6e09c61f8367bf554b9ee2b4539c01bc/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/chetanathorat/.gradle/caches/transforms-3/6e09c61f8367bf554b9ee2b4539c01bc/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/chetanathorat/.gradle/caches/transforms-3/da03fc4ec9bfe78e463c6352a6c32be8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

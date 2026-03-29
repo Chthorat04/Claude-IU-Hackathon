@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ReadyAid - Ask ReadyAid</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "background": "#f9f9fb",
+              "on-secondary-fixed": "#1c075a",
+              "surface": "#f9f9fb",
+              "secondary": "#6053a0",
+              "secondary-fixed-dim": "#cabeff",
+              "surface-variant": "#e2e2e4",
+              "on-error": "#ffffff",
+              "surface-tint": "#13696a",
+              "outline": "#6f7979",
+              "outline-variant": "#bec9c8",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-fixed-dim": "#ffb3af",
+              "primary": "#006162",
+              "surface-container": "#eeeef0",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#f0f0f2",
+              "on-surface": "#1a1c1d",
+              "on-tertiary": "#ffffff",
+              "primary-fixed-dim": "#89d3d4",
+              "on-primary-fixed": "#002020",
+              "surface-container-high": "#e8e8ea",
+              "on-tertiary-fixed-variant": "#8c151e",
+              "inverse-surface": "#2f3132",
+              "surface-bright": "#f9f9fb",
+              "error": "#ba1a1a",
+              "on-error-container": "#93000a",
+              "secondary-container": "#b9abff",
+              "on-surface-variant": "#3f4949",
+              "surface-dim": "#d9dadc",
+              "on-background": "#1a1c1d",
+              "on-secondary-container": "#493c87",
+              "primary-container": "#2c7a7b",
+              "on-primary": "#ffffff",
+              "surface-container-highest": "#e2e2e4",
+              "secondary-fixed": "#e6deff",
+              "on-tertiary-fixed": "#410005",
+              "error-container": "#ffdad6",
+              "on-primary-container": "#c1ffff",
+              "on-primary-fixed-variant": "#004f50",
+              "tertiary": "#a3272c",
+              "primary-fixed": "#a5eff0",
+              "tertiary-fixed": "#ffdad7",
+              "inverse-primary": "#89d3d4",
+              "tertiary-container": "#c54042",
+              "on-tertiary-container": "#fff0ef",
+              "on-secondary-fixed-variant": "#483b86",
+              "surface-container-low": "#f3f3f5"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f9f9fb; }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      }
+      .clinical-shadow {
+        box-shadow: 0 4px 20px -4px rgba(26, 28, 29, 0.06);
+      }
+      .glass-header {
+        background-color: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(20px);
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="text-on-surface">
+<!-- Top App Bar -->
+<header class="fixed top-0 w-full z-50 glass-header border-b border-slate-200/20 px-5 h-16 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-on-surface" data-icon="arrow_back">arrow_back</span>
+</button>
+<div class="flex flex-col">
+<h1 class="text-[1.125rem] font-medium tracking-tight text-on-surface leading-tight">Ask ReadyAid</h1>
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+<span class="text-[0.6875rem] font-light text-on-surface-variant tracking-wide uppercase">AI Connected</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-on-surface" data-icon="more_vert">more_vert</span>
+</button>
+</div>
+</header>
+<!-- Main Content / Chat Canvas -->
+<main class="min-h-screen pt-16 pb-32 px-5 flex flex-col items-center justify-center bg-[#F5F5F7]">
+<!-- Empty State Center Content -->
+<div class="flex flex-col items-center text-center max-w-xs">
+<div class="w-24 h-24 mb-6 rounded-3xl bg-primary/5 flex items-center justify-center">
+<span class="material-symbols-outlined text-[48px] text-primary" data-icon="medical_services">medical_services</span>
+</div>
+<h2 class="text-[1.0625rem] font-medium text-on-surface mb-2">Describe the emergency</h2>
+<p class="text-[0.8125rem] font-light text-on-surface-variant leading-relaxed">
+                Voice or type — I'll guide you step by step
+            </p>
+<!-- Suggestion Chips -->
+<div class="mt-10 flex flex-col gap-3 w-full">
+<button class="w-full py-3 px-5 bg-surface-container-lowest border border-[#EBEBF0] rounded-2xl flex items-center justify-between hover:bg-surface-container transition-colors text-left">
+<span class="text-[0.875rem] font-normal text-on-surface">Cut finger deeply</span>
+<span class="material-symbols-outlined text-primary text-[18px]" data-icon="chevron_right">chevron_right</span>
+</button>
+<button class="w-full py-3 px-5 bg-surface-container-lowest border border-[#EBEBF0] rounded-2xl flex items-center justify-between hover:bg-surface-container transition-colors text-left">
+<span class="text-[0.875rem] font-normal text-on-surface">Someone is choking</span>
+<span class="material-symbols-outlined text-primary text-[18px]" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+</main>
+<!-- Bottom Action Bar -->
+<footer class="fixed bottom-0 w-full bg-surface-container-lowest border-t border-outline-variant/20 px-5 pt-4 pb-8 z-50">
+<div class="max-w-3xl mx-auto flex items-center gap-3">
+<!-- Voice Input Pulse Surface -->
+<button class="flex-shrink-0 w-12 h-12 rounded-full border border-primary/20 bg-surface-container-low flex items-center justify-center hover:bg-primary/5 transition-all">
+<span class="material-symbols-outlined text-primary" data-icon="mic">mic</span>
+</button>
+<!-- Text Input Field -->
+<div class="flex-grow relative">
+<input class="w-full h-12 pl-4 pr-12 bg-surface-container border-none rounded-2xl text-[0.875rem] font-normal placeholder:text-on-surface-variant/60 focus:ring-1 focus:ring-primary/30 outline-none" placeholder="Describe what happened..." type="text"/>
+<!-- Send Arrow -->
+<button class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 flex items-center justify-center rounded-xl bg-primary text-white hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined text-[18px]" data-icon="arrow_upward">arrow_upward</span>
+</button>
+</div>
+</div>
+</footer>
+<!-- Suppressed Navigation as per context of focused task -->
+</body></html>

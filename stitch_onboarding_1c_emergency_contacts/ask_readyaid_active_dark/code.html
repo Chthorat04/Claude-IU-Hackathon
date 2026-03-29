@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ReadyAid - AI Assistant</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "background": "#f9f9fb",
+              "on-secondary-fixed": "#1c075a",
+              "surface": "#f9f9fb",
+              "secondary": "#6053a0",
+              "secondary-fixed-dim": "#cabeff",
+              "surface-variant": "#e2e2e4",
+              "on-error": "#ffffff",
+              "surface-tint": "#13696a",
+              "outline": "#6f7979",
+              "outline-variant": "#bec9c8",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-fixed-dim": "#ffb3af",
+              "primary": "#006162",
+              "surface-container": "#eeeef0",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#f0f0f2",
+              "on-surface": "#1a1c1d",
+              "on-tertiary": "#ffffff",
+              "primary-fixed-dim": "#89d3d4",
+              "on-primary-fixed": "#002020",
+              "surface-container-high": "#e8e8ea",
+              "on-tertiary-fixed-variant": "#8c151e",
+              "inverse-surface": "#2f3132",
+              "surface-bright": "#f9f9fb",
+              "error": "#ba1a1a",
+              "on-error-container": "#93000a",
+              "secondary-container": "#b9abff",
+              "on-surface-variant": "#3f4949",
+              "surface-dim": "#d9dadc",
+              "on-background": "#1a1c1d",
+              "on-secondary-container": "#493c87",
+              "primary-container": "#2c7a7b",
+              "on-primary": "#ffffff",
+              "surface-container-highest": "#e2e2e4",
+              "secondary-fixed": "#e6deff",
+              "on-tertiary-fixed": "#410005",
+              "error-container": "#ffdad6",
+              "on-primary-container": "#c1ffff",
+              "on-primary-fixed-variant": "#004f50",
+              "tertiary": "#a3272c",
+              "primary-fixed": "#a5eff0",
+              "tertiary-fixed": "#ffdad7",
+              "inverse-primary": "#89d3d4",
+              "tertiary-container": "#c54042",
+              "on-tertiary-container": "#fff0ef",
+              "on-secondary-fixed-variant": "#483b86",
+              "surface-container-low": "#f3f3f5"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #0f172a; /* Custom dark mode base for 'Clinical Zen' */
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-header {
+            background: rgba(15, 23, 42, 0.7);
+            backdrop-filter: blur(20px);
+        }
+        /* Custom scrollbar for clinical look */
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="dark bg-slate-950 text-slate-100">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center h-[56px] px-4 w-full bg-slate-900/70 backdrop-blur-xl border-b border-slate-800/20">
+<div class="flex items-center gap-3">
+<button class="p-2 hover:bg-slate-800/50 transition-all duration-200 ease-in-out rounded-full">
+<span class="material-symbols-outlined text-teal-400">menu</span>
+</button>
+<h1 class="text-lg font-medium text-slate-100 font-['Plus_Jakarta_Sans'] tracking-tight">ReadyAid</h1>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-teal-900/30 border border-teal-500/20 flex items-center justify-center overflow-hidden">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="professional headshot of a person with friendly expression in soft studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMzdPDb7uPrhNUHNNMi7v5So5dNgM3nzOU_wQ303XnZak-3Lij8wR16TXoENOpTKZqWmXxfw_fBh6wm3lZ9kxCGnTheDGyoeK4J9XBx9fP1OWkTpYlRhVQ-tEyCSfEcW-gXVVd3PhzepCBxjXZcDWxFhUUyK4kDgsM7wA-JVZLb6kwy_TnqBEhataWRUdcZJfsnK-A7VkIsBBQtV4GpC0Pa8iZFAgdD4Z4XvBeESeIVpkCibIHx8uTJHj-bKTH1wQ6KQJtdI5COO2Y"/>
+</div>
+</div>
+</header>
+<main class="pt-20 pb-24 px-5 max-w-2xl mx-auto min-h-screen flex flex-col">
+<!-- Conversation Container -->
+<div class="space-y-8 flex-1">
+<!-- User Message Bubble -->
+<div class="flex justify-end">
+<div class="bg-[#2C7A7B] text-white px-5 py-3.5 rounded-2xl rounded-tr-none max-w-[85%] shadow-sm">
+<p class="text-[0.875rem] font-normal leading-relaxed">
+                        What are the immediate steps for a Grade 2 ankle sprain?
+                    </p>
+</div>
+</div>
+<!-- AI Response Section -->
+<div class="flex flex-col gap-4">
+<!-- AI Main Card -->
+<div class="bg-slate-900 border border-[#EBEBF0]/10 rounded-2xl p-5 space-y-4">
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-teal-400 text-sm" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+<span class="text-[0.6875rem] font-light tracking-wide text-slate-400 uppercase">ReadyAid Protocol</span>
+</div>
+<h2 class="text-[1.375rem] font-medium tracking-tight text-slate-100">Grade 2 Ankle Sprain Response</h2>
+<p class="text-[0.875rem] text-slate-300 leading-relaxed">
+                        A Grade 2 sprain involves a partial tear of the ligament. Follow the R.I.C.E. protocol immediately to manage swelling and prevent further damage.
+                    </p>
+<!-- Stacked Sub-cards with Colored Borders -->
+<div class="space-y-3.5 mt-6">
+<!-- Step 1: Rest -->
+<div class="bg-slate-950 border-l-[4px] border-amber-500 p-4 rounded-r-xl">
+<h3 class="text-amber-400 text-[1rem] font-medium mb-1">Rest</h3>
+<p class="text-[0.875rem] text-slate-400 font-normal">Avoid weight-bearing activities. Use crutches if moving causes sharp pain.</p>
+</div>
+<!-- Step 2: Ice -->
+<div class="bg-slate-950 border-l-[4px] border-teal-500 p-4 rounded-r-xl">
+<h3 class="text-teal-400 text-[1rem] font-medium mb-1">Ice</h3>
+<p class="text-[0.875rem] text-slate-400 font-normal">Apply cold packs for 15-20 minutes every 2-3 hours for the first 48 hours.</p>
+</div>
+<!-- Step 3: Compression -->
+<div class="bg-slate-950 border-l-[4px] border-red-500 p-4 rounded-r-xl">
+<h3 class="text-red-400 text-[1rem] font-medium mb-1">Compression</h3>
+<p class="text-[0.875rem] text-slate-400 font-normal">Wrap the ankle with an elastic bandage. Ensure it's snug but not cutting off circulation.</p>
+</div>
+<!-- Step 4: Elevation -->
+<div class="bg-slate-950 border-l-[4px] border-orange-500 p-4 rounded-r-xl">
+<h3 class="text-orange-400 text-[1rem] font-medium mb-1">Elevation</h3>
+<p class="text-[0.875rem] text-slate-400 font-normal">Keep the ankle elevated above the level of your heart as much as possible.</p>
+</div>
+<!-- Warning/Alert -->
+<div class="bg-slate-950 border-l-[4px] border-purple-500 p-4 rounded-r-xl">
+<h3 class="text-purple-400 text-[1rem] font-medium mb-1">Professional Consult</h3>
+<p class="text-[0.875rem] text-slate-400 font-normal">Grade 2 sprains often require physical therapy. Schedule an X-ray to rule out small fractures.</p>
+</div>
+</div>
+<!-- Source Pills -->
+<div class="pt-4 flex flex-wrap gap-2">
+<div class="bg-slate-950 border border-slate-800 rounded-full px-3 py-1.5 flex items-center gap-2">
+<span class="material-symbols-outlined text-[14px] text-teal-500">menu_book</span>
+<span class="text-[0.6875rem] text-slate-400 font-light">Mayo Clinic Guide</span>
+</div>
+<div class="bg-slate-950 border border-slate-800 rounded-full px-3 py-1.5 flex items-center gap-2">
+<span class="material-symbols-outlined text-[14px] text-teal-500">verified</span>
+<span class="text-[0.6875rem] text-slate-400 font-light">Red Cross Protocol</span>
+</div>
+</div>
+</div>
+<!-- Suggested Actions -->
+<div class="flex gap-2 overflow-x-auto pb-2 no-scrollbar">
+<button class="whitespace-nowrap bg-slate-900 border border-slate-800 text-slate-300 px-4 py-2 rounded-full text-[0.875rem] hover:bg-slate-800 transition-colors">How to wrap a bandage?</button>
+<button class="whitespace-nowrap bg-slate-900 border border-slate-800 text-slate-300 px-4 py-2 rounded-full text-[0.875rem] hover:bg-slate-800 transition-colors">Pain relief options</button>
+<button class="whitespace-nowrap bg-slate-900 border border-slate-800 text-slate-300 px-4 py-2 rounded-full text-[0.875rem] hover:bg-slate-800 transition-colors">Recovery timeline</button>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Input Bar -->
+<div class="fixed bottom-[64px] left-0 w-full px-4 pb-4 z-40 bg-slate-950/80 backdrop-blur-md">
+<div class="max-w-2xl mx-auto relative">
+<div class="flex items-center bg-slate-900 border border-slate-800 rounded-2xl px-4 py-2 focus-within:border-teal-500/50 transition-all">
+<input class="flex-1 bg-transparent border-none text-slate-200 placeholder-slate-500 focus:ring-0 text-[0.875rem] py-2" placeholder="Ask ReadyAid..." type="text"/>
+<div class="flex items-center gap-2">
+<button class="p-2 text-slate-400 hover:text-teal-400 transition-colors">
+<span class="material-symbols-outlined">mic</span>
+</button>
+<button class="bg-teal-600 p-2 rounded-xl text-white hover:bg-teal-500 transition-all flex items-center justify-center">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">send</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full h-[64px] flex justify-around items-center px-2 pb-safe bg-slate-950 border-t border-slate-800 z-50">
+<a class="flex flex-col items-center justify-center text-slate-500 px-5 py-1 hover:text-teal-300 transition-transform scale-95 active:scale-90" href="#">
+<span class="material-symbols-outlined">medical_services</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-1">Guides</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-teal-900/30 text-teal-300 rounded-2xl px-5 py-1 transition-transform scale-95 active:scale-90" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">emergency</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-1">Emergency</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-500 px-5 py-1 hover:text-teal-300 transition-transform scale-95 active:scale-90" href="#">
+<span class="material-symbols-outlined">wounds_injuries</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-1">Supplies</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-500 px-5 py-1 hover:text-teal-300 transition-transform scale-95 active:scale-90" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-1">Profile</span>
+</a>
+</nav>
+<!-- Background Decoration (Zen Elements) -->
+<div class="fixed top-[-10%] left-[-10%] w-[40%] h-[40%] bg-teal-900/10 blur-[120px] rounded-full -z-10 pointer-events-none"></div>
+<div class="fixed bottom-[-5%] right-[-5%] w-[30%] h-[30%] bg-blue-900/10 blur-[100px] rounded-full -z-10 pointer-events-none"></div>
+</body></html>

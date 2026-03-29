@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>ReadyAid - Home</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f9f9fb;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+            font-size: 24px;
+        }
+        .glass-header {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .accent-red { border-left: 4px solid #ba1a1a; }
+        .accent-teal { border-left: 4px solid #006162; }
+        .accent-green { border-left: 4px solid #2e7d32; }
+        .accent-purple { border-left: 4px solid #6053a0; }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "background": "#f9f9fb",
+                "on-secondary-fixed": "#1c075a",
+                "surface": "#f9f9fb",
+                "secondary": "#6053a0",
+                "secondary-fixed-dim": "#cabeff",
+                "surface-variant": "#e2e2e4",
+                "on-error": "#ffffff",
+                "surface-tint": "#13696a",
+                "outline": "#6f7979",
+                "outline-variant": "#bec9c8",
+                "surface-container-lowest": "#ffffff",
+                "tertiary-fixed-dim": "#ffb3af",
+                "primary": "#006162",
+                "surface-container": "#eeeef0",
+                "on-secondary": "#ffffff",
+                "inverse-on-surface": "#f0f0f2",
+                "on-surface": "#1a1c1d",
+                "on-tertiary": "#ffffff",
+                "primary-fixed-dim": "#89d3d4",
+                "on-primary-fixed": "#002020",
+                "surface-container-high": "#e8e8ea",
+                "on-tertiary-fixed-variant": "#8c151e",
+                "inverse-surface": "#2f3132",
+                "surface-bright": "#f9f9fb",
+                "error": "#ba1a1a",
+                "on-error-container": "#93000a",
+                "secondary-container": "#b9abff",
+                "on-surface-variant": "#3f4949",
+                "surface-dim": "#d9dadc",
+                "on-background": "#1a1c1d",
+                "on-secondary-container": "#493c87",
+                "primary-container": "#2c7a7b",
+                "on-primary": "#ffffff",
+                "surface-container-highest": "#e2e2e4",
+                "secondary-fixed": "#e6deff",
+                "on-tertiary-fixed": "#410005",
+                "error-container": "#ffdad6",
+                "on-primary-container": "#c1ffff",
+                "on-primary-fixed-variant": "#004f50",
+                "tertiary": "#a3272c",
+                "primary-fixed": "#a5eff0",
+                "tertiary-fixed": "#ffdad7",
+                "inverse-primary": "#89d3d4",
+                "tertiary-container": "#c54042",
+                "on-tertiary-container": "#fff0ef",
+                "on-secondary-fixed-variant": "#483b86",
+                "surface-container-low": "#f3f3f5"
+              },
+              fontFamily: {
+                "headline": ["Plus Jakarta Sans"],
+                "body": ["Plus Jakarta Sans"],
+                "label": ["Plus Jakarta Sans"]
+              },
+              borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+            },
+          },
+        }
+      </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface antialiased min-h-screen pb-32">
+<!-- Top App Bar -->
+<header class="fixed top-0 w-full z-50 glass-header border-b border-slate-200/20">
+<div class="flex justify-between items-center h-[56px] px-5 w-full max-w-2xl mx-auto">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="health_and_safety">health_and_safety</span>
+<h1 class="text-[18px] font-medium tracking-tight text-slate-900">ReadyAid</h1>
+</div>
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-slate-100/50 transition-all">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="settings">settings</span>
+</button>
+</div>
+</header>
+<main class="pt-[56px] px-5 max-w-2xl mx-auto">
+<!-- Offline Status Row -->
+<div class="flex items-center gap-2 py-4 mb-2">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant" data-icon="cloud_off">cloud_off</span>
+<span class="text-[11px] font-light tracking-wide text-on-surface-variant">Ready offline</span>
+</div>
+<!-- Hero Status Card -->
+<section class="mb-8 p-6 rounded-[14px] bg-surface-container-lowest border border-outline-variant/20 shadow-sm relative overflow-hidden">
+<div class="relative z-10">
+<h2 class="text-[22px] font-medium text-on-surface mb-1">Status: Secure</h2>
+<p class="text-on-surface-variant text-[14px] leading-relaxed max-w-[200px]">Emergency kits are up to date and offline guides are synced.</p>
+</div>
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -mr-10 -mt-10 blur-3xl"></div>
+</section>
+<!-- Main Content 2x2 Grid -->
+<div class="grid grid-cols-2 gap-4 mb-10">
+<!-- SOS Card -->
+<button class="accent-red flex flex-col items-start p-5 bg-surface-container-lowest rounded-[14px] border border-outline-variant/20 transition-all active:scale-[0.98]">
+<span class="material-symbols-outlined text-error mb-4" data-icon="phone_iphone">phone_iphone</span>
+<span class="text-[16px] font-medium text-on-surface">SOS</span>
+</button>
+<!-- Ask ReadyAid Card -->
+<button class="accent-teal flex flex-col items-start p-5 bg-surface-container-lowest rounded-[14px] border border-outline-variant/20 transition-all active:scale-[0.98]">
+<span class="material-symbols-outlined text-primary mb-4" data-icon="chat_bubble">chat_bubble</span>
+<span class="text-[16px] font-medium text-on-surface">Ask ReadyAid</span>
+</button>
+<!-- First-Aid Guide Card -->
+<button class="accent-green flex flex-col items-start p-5 bg-surface-container-lowest rounded-[14px] border border-outline-variant/20 transition-all active:scale-[0.98]">
+<span class="material-symbols-outlined text-[#2e7d32] mb-4" data-icon="menu_book">menu_book</span>
+<span class="text-[16px] font-medium text-on-surface">First-Aid Guide</span>
+</button>
+<!-- My Info Card -->
+<button class="accent-purple flex flex-col items-start p-5 bg-surface-container-lowest rounded-[14px] border border-outline-variant/20 transition-all active:scale-[0.98]">
+<span class="material-symbols-outlined text-secondary mb-4" data-icon="contact_emergency">contact_emergency</span>
+<span class="text-[16px] font-medium text-on-surface">My Info</span>
+</button>
+</div>
+<!-- Featured Section -->
+<div class="mb-6">
+<h3 class="text-[14px] font-medium text-on-surface-variant uppercase tracking-widest mb-4">Latest Guide</h3>
+<div class="rounded-[14px] overflow-hidden bg-surface-container-lowest border border-outline-variant/20">
+<div class="h-40 w-full overflow-hidden">
+<img alt="First aid kit" class="w-full h-full object-cover" data-alt="Close-up of a professional medical first aid kit with gauze and antiseptic on a clean white surgical surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpjY3QLPnbqWefAF5AWrL36w8WoD58Fss2dbuMN-LEis8slldlWcrd1yX_u41o-0VZP-7QhiEJxt8BI7pUqa2PomGqXpTovs0hGfwPWxPhZGxRw9WbQ2YF8t-uZY_htfLdPCtg6HnGi3kYVDx2-wz7xp715QkWICfmA9UIi64RERpxX91JEADADEaphMixIOKIDL4sjL15HN0F2sevX7Zy8A9sCfA_bXwVBkHg8Aoat60Or94yGGbx_ilrI3boxz75f4aGeQ5btfzX"/>
+</div>
+<div class="p-5">
+<h4 class="text-[18px] font-medium text-on-surface mb-1">Basic Burn Care</h4>
+<p class="text-on-surface-variant text-[14px]">Essential steps to treat thermal and chemical burns immediately.</p>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Voice Bar (Pinned) -->
+<div class="fixed bottom-[64px] left-0 w-full px-5 z-40 max-w-2xl mx-auto left-1/2 -translate-x-1/2">
+<button class="w-full bg-surface-container-lowest h-[56px] rounded-full border border-outline-variant/20 shadow-[0_8px_24px_rgba(0,0,0,0.06)] flex items-center justify-center gap-3 active:scale-[0.97] transition-transform">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="mic">mic</span>
+<span class="text-[13px] font-light text-on-surface-variant">Press to speak</span>
+</button>
+</div>
+<!-- Bottom Navigation NavBar -->
+<nav class="fixed bottom-0 left-0 w-full h-[64px] flex justify-around items-center px-2 pb-safe bg-white border-t border-slate-200 z-50">
+<a class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 transition-transform scale-95 active:scale-90" href="#">
+<span class="material-symbols-outlined" data-icon="medical_services">medical_services</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-0.5">Guides</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-teal-50 text-teal-700 rounded-2xl px-5 py-1 transition-transform scale-95 active:scale-90" href="#">
+<span class="material-symbols-outlined" data-icon="emergency" style="font-variation-settings: 'FILL' 1;">emergency</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-0.5">Emergency</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 transition-transform scale-95 active:scale-90" href="#">
+<span class="material-symbols-outlined" data-icon="first_aid">wounds_injuries</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-0.5">Supplies</span>
+</a>
+<a class="flex flex-col items-center justify-center text-slate-400 px-5 py-1 transition-transform scale-95 active:scale-90" href="#">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[11px] font-light tracking-wide mt-0.5">Profile</span>
+</a>
+</nav>
+</body></html>

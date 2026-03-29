@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "background": "#f9f9fb",
+              "on-secondary-fixed": "#1c075a",
+              "surface": "#f9f9fb",
+              "secondary": "#6053a0",
+              "secondary-fixed-dim": "#cabeff",
+              "surface-variant": "#e2e2e4",
+              "on-error": "#ffffff",
+              "surface-tint": "#13696a",
+              "outline": "#6f7979",
+              "outline-variant": "#bec9c8",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-fixed-dim": "#ffb3af",
+              "primary": "#006162",
+              "surface-container": "#eeeef0",
+              "on-secondary": "#ffffff",
+              "inverse-on-surface": "#f0f0f2",
+              "on-surface": "#1a1c1d",
+              "on-tertiary": "#ffffff",
+              "primary-fixed-dim": "#89d3d4",
+              "on-primary-fixed": "#002020",
+              "surface-container-high": "#e8e8ea",
+              "on-tertiary-fixed-variant": "#8c151e",
+              "inverse-surface": "#2f3132",
+              "surface-bright": "#f9f9fb",
+              "error": "#ba1a1a",
+              "on-error-container": "#93000a",
+              "secondary-container": "#b9abff",
+              "on-surface-variant": "#3f4949",
+              "surface-dim": "#d9dadc",
+              "on-background": "#1a1c1d",
+              "on-secondary-container": "#493c87",
+              "primary-container": "#2c7a7b",
+              "on-primary": "#ffffff",
+              "surface-container-highest": "#e2e2e4",
+              "secondary-fixed": "#e6deff",
+              "on-tertiary-fixed": "#410005",
+              "error-container": "#ffdad6",
+              "on-primary-container": "#c1ffff",
+              "on-primary-fixed-variant": "#004f50",
+              "tertiary": "#a3272c",
+              "primary-fixed": "#a5eff0",
+              "tertiary-fixed": "#ffdad7",
+              "inverse-primary": "#89d3d4",
+              "tertiary-container": "#c54042",
+              "on-tertiary-container": "#fff0ef",
+              "on-secondary-fixed-variant": "#483b86",
+              "surface-container-low": "#f3f3f5"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      body { font-family: 'Plus Jakarta Sans', sans-serif; }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-effect {
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface min-h-screen pb-24">
+<!-- Top App Bar -->
+<header class="fixed top-0 w-full z-50 bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl border-b border-slate-200/20 dark:border-slate-800/20">
+<div class="flex justify-between items-center h-14 px-4 w-full">
+<div class="flex items-center gap-3">
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-slate-100/50 transition-all">
+<span class="material-symbols-outlined text-slate-900">arrow_back</span>
+</button>
+<div class="flex flex-col">
+<h1 class="text-lg font-medium tracking-tight text-slate-900">Minor Burn</h1>
+</div>
+</div>
+<div class="px-3 py-1 rounded-full border border-primary text-primary text-[11px] font-medium tracking-wide">
+                Guidance only
+            </div>
+</div>
+</header>
+<main class="pt-20 px-5 space-y-4">
+<!-- Audio Strip -->
+<section class="flex items-center gap-3 py-4 px-2 rounded-xl bg-surface-container-low transition-all active:scale-[0.98]">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">volume_up</span>
+</div>
+<span class="text-[15px] font-normal text-primary">Play instructions aloud</span>
+</section>
+<!-- Image Guidance (Bento style) -->
+<div class="grid grid-cols-1 gap-4">
+<div class="relative h-48 rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="clean medical setting with first aid supplies and a person gently applying a cool compress to skin" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZCo2UzT1D5lBZVXxSu_AC6YIF1RHPjK8-_E99nK1f2V8BW01zK53l8nUSz6biqlbpZ8U-3OESylwVEopi8TIdNIhV4sImmJn6VBD5l3iHlNUyjD_vsFiu4J_8PcMtIoUp-_ljw2CH68pwr8mHy98LKiZjtHJgybMiB6cjdpGrUP8Kdoahvzol2YUinO475mszwdYmNk8ulkRvTGTc3LAp2hfmJHWTeK7L1t2YMnjnQ5SCdKeXiCym7mInYcOce9qjNMEI-DH6tKoa"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+<div class="absolute bottom-4 left-4 text-white text-sm font-light">Visual identification: Redness without blisters</div>
+</div>
+</div>
+<!-- Stacked Instruction Cards -->
+<div class="space-y-3">
+<!-- CHECK FIRST -->
+<div class="bg-surface-container-lowest p-5 rounded-lg border-l-[3px] border-amber-500 shadow-sm">
+<h3 class="text-[14px] font-medium text-amber-600 mb-2 uppercase tracking-wider">CHECK FIRST</h3>
+<p class="text-[15px] text-on-surface-variant leading-relaxed">Ensure the source of the burn has been removed. Check if the burn is larger than the victim's palm or on the face.</p>
+</div>
+<!-- DO THIS NOW -->
+<div class="bg-surface-container-lowest p-5 rounded-lg border-l-[3px] border-emerald-500 shadow-sm">
+<h3 class="text-[14px] font-medium text-emerald-600 mb-2 uppercase tracking-wider">DO THIS NOW</h3>
+<ul class="space-y-3">
+<li class="flex gap-3 text-[15px] text-on-surface-variant">
+<span class="text-emerald-500 font-medium shrink-0">1.</span>
+<span>Run cool (not cold) tap water over the burn for at least 20 minutes.</span>
+</li>
+<li class="flex gap-3 text-[15px] text-on-surface-variant">
+<span class="text-emerald-500 font-medium shrink-0">2.</span>
+<span>Remove jewelry or tight clothing before the area begins to swell.</span>
+</li>
+<li class="flex gap-3 text-[15px] text-on-surface-variant">
+<span class="text-emerald-500 font-medium shrink-0">3.</span>
+<span>Apply a loose, sterile bandage or clean cloth.</span>
+</li>
+</ul>
+</div>
+<!-- DO NOT -->
+<div class="bg-surface-container-lowest p-5 rounded-lg border-l-[3px] border-rose-500 shadow-sm">
+<h3 class="text-[14px] font-medium text-rose-600 mb-2 uppercase tracking-wider">DO NOT</h3>
+<ul class="space-y-2 text-[15px] text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-rose-400 text-sm">block</span>
+                        Do not use ice, butter, or ointments on the burn.
+                    </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-rose-400 text-sm">block</span>
+                        Do not break any blisters that have formed.
+                    </li>
+</ul>
+</div>
+<!-- WHEN TO CALL EMERGENCY -->
+<div class="bg-surface-container-lowest p-5 rounded-lg border-l-[3px] border-orange-500 shadow-sm">
+<h3 class="text-[14px] font-medium text-orange-600 mb-2 uppercase tracking-wider">WHEN TO CALL EMERGENCY</h3>
+<p class="text-[15px] text-on-surface-variant leading-relaxed mb-3">Dial emergency services immediately if:</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-orange-50 text-orange-700 text-xs rounded-full border border-orange-100">Difficulty breathing</span>
+<span class="px-3 py-1 bg-orange-50 text-orange-700 text-xs rounded-full border border-orange-100">Deep tissue visible</span>
+<span class="px-3 py-1 bg-orange-50 text-orange-700 text-xs rounded-full border border-orange-100">Chemical burn</span>
+</div>
+</div>
+</div>
+<!-- Help Section -->
+<section class="mt-8 pb-12">
+<div class="bg-primary/5 rounded-2xl p-6 border border-primary/10 text-center">
+<p class="text-on-surface-variant text-sm mb-4 italic">Unsure about the severity? Use the camera for an instant AI assessment.</p>
+<button class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-primary text-white text-sm font-medium transition-transform active:scale-95 shadow-md">
+<span class="material-symbols-outlined text-lg">photo_camera</span>
+                    Scan Burn Site
+                </button>
+</div>
+</section>
+</main>
+<!-- Bottom Sticky Bar -->
+<footer class="fixed bottom-0 left-0 w-full h-20 bg-white/80 backdrop-blur-md flex justify-between items-center px-6 border-t border-slate-100 z-50">
+<a class="text-primary font-medium text-[15px] flex items-center gap-1 group" href="#">
+            Ask ReadyAid AI about this 
+            <span class="material-symbols-outlined text-lg transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+<button class="w-12 h-12 flex items-center justify-center rounded-full bg-surface-container hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-on-surface-variant">bookmark</span>
+</button>
+</footer>
+<!-- Navigation suppression check: Since this is a detailed task-focused page, 
+         the BottomNavBar and SideNav are suppressed as per UI guidelines. -->
+</body></html>
