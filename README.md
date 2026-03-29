@@ -19,6 +19,61 @@ The app is designed for quick action: minimal taps, clear UX, and first-aid-only
 
 ---
 
+## Claude Hackathon Alignment
+
+### Selected Track
+
+**Track 1: Biology & Physical Health**
+
+ReadyAid directly addresses emergency first-aid access, health literacy, and triage support in plain language for people who need immediate, understandable guidance.
+
+### Who This Is For (and Why)
+
+- People facing urgent first-aid situations before professional help arrives
+- Families/caregivers who need calm, step-by-step instructions
+- Users with specific medical context (conditions, allergies, medications) needing safer guidance
+
+This matters because emergency moments are high-stress and medical information is often inaccessible, jargon-heavy, or hard to apply quickly.
+
+### The 3 Required Hackathon Questions
+
+#### 1) Who are you building this for and why do they need it?
+
+ReadyAid is built for everyday people in emergency or near-emergency scenarios who need immediate first-aid support. They need rapid, understandable, and context-aware instructions before reaching formal care.
+
+#### 2) What could go wrong and what would you do about it?
+
+Main risks and safeguards:
+
+- **Risk: Incorrect or unsafe advice**
+  - Safeguards: retrieval-grounded responses, first-aid-focused prompting, and explicit emergency escalation language.
+- **Risk: Over-reliance on AI instead of professionals**
+  - Safeguards: clear disclaimer, emergency intent handling, and SOS flow that directs users to real emergency services.
+- **Risk: Sensitive health data misuse**
+  - Safeguards: profile data is local on-device (Room), minimal required payload to backend.
+- **Risk: Non-medical misuse / prompt drift**
+  - Safeguards: backend non-medical query blocking and first-aid-only behavior.
+- **Risk: Automation that removes human control**
+  - Safeguards: SOS uses dialer handoff (`ACTION_DIAL`) so user remains in control.
+
+#### 3) How does this help people rather than make decisions for them?
+
+ReadyAid provides guidance, not autonomous decisions. Users remain the decision-makers:
+
+- AI explains next steps clearly and transparently.
+- SOS flow supports action but does not silently place/terminate calls.
+- Recommendations are assistive, with escalation to professional care when needed.
+
+### Ethical Thinking (Explicit)
+
+- **Human agency first:** the app supports, not replaces, user judgment.
+- **Transparency:** it states scope and limitations (first-aid assistant, not doctor replacement).
+- **Safety boundaries:** highlights when emergency services should be contacted.
+- **Data sensitivity awareness:** handles personal profile context with minimal exposure.
+- **Failure-aware design:** connection errors and startup issues are surfaced with actionable guidance.
+
+---
+
 ## Repository Structure
 
 ```text
@@ -205,19 +260,6 @@ uvicorn server:app --host 0.0.0.0 --port 8000 --reload
 
 - Free host disk space.
 - Wipe Data / recreate AVD.
-
----
-
-## Hackathon Delivery Summary
-
-This project delivers a functional emergency assistant that combines:
-
-- practical mobile UX for urgent scenarios,
-- local user profile personalization,
-- retrieval-grounded first-aid knowledge,
-- and real-time streamed AI guidance.
-
----
 
 ## Disclaimer
 
