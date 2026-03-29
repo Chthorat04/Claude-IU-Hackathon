@@ -1,11 +1,7 @@
 package com.readyaid.ui.sos
 
-import android.Manifest
 import android.content.Intent
-import android.content.pm.PackageManager
 import android.net.Uri
-import androidx.activity.compose.rememberLauncherForActivityResult
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -27,7 +23,6 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.core.content.ContextCompat
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -98,46 +93,11 @@ fun SosScreen(
     
     val context = LocalContext.current
 
-    val dialerLauncher = rememberLauncherForActivityResult(
-        contract = ActivityResultContracts.RequestPermission()
-    ) { isGranted: Boolean ->
-        // Default to 911 for the main SOS logic
-        val uri = Uri.parse("tel:911")
-        if (isGranted) {
-            val intent = Intent(Intent.ACTION_CALL, uri)
-            context.startActivity(intent)
-        } else {
-            val intent = Intent(Intent.ACTION_DIAL, uri)
-            context.startActivity(intent)
-        }
-    }
-
-    val contactDialerLauncher = rememberLauncherForActivityResult(
-        contract = ActivityResultContracts.RequestPermission()
-    ) { isGranted: Boolean ->
-        val uri = Uri.parse("tel:${profile.emergencyContact1Phone}")
-        if (isGranted) {
-            val intent = Intent(Intent.ACTION_CALL, uri)
-            context.startActivity(intent)
-        } else {
-            val intent = Intent(Intent.ACTION_DIAL, uri)
-            context.startActivity(intent)
-        }
-    }
-
     fun executeCall(phoneNum: String) {
-        val permissionCheck = ContextCompat.checkSelfPermission(context, Manifest.permission.CALL_PHONE)
         val uri = Uri.parse("tel:$phoneNum")
-        
-        if (permissionCheck == PackageManager.PERMISSION_GRANTED) {
-            val intent = Intent(Intent.ACTION_CALL, uri)
-            context.startActivity(intent)
-        } else {
-            // For simplicity in the launcher, if we get here we'll use the profile contact 
-            // but the main SOS button uses 911 which should have been granted or handled by dialerLauncher
-            if (phoneNum == "911") dialerLauncher.launch(Manifest.permission.CALL_PHONE)
-            else contactDialerLauncher.launch(Manifest.permission.CALL_PHONE)
-        }
+        // ACTION_DIAL keeps user in control and avoids unsupported call-end automation.
+        val intent = Intent(Intent.ACTION_DIAL, uri)
+        context.startActivity(intent)
     }
 
     Scaffold(

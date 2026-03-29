@@ -19,7 +19,8 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-    buildConfigField("String", "RAG_BASE_URL", "\"http://10.0.2.2:8000/ask\"")
+        // Emulator can use 10.0.2.2; physical device should use laptop LAN IP.
+        buildConfigField("String", "RAG_BASE_URL", "\"http://10.0.2.2:8000\"")
         vectorDrawables {
             useSupportLibrary = true
         }

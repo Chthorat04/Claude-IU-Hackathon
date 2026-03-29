@@ -170,15 +170,15 @@ Context: {context}
                     }) + "\n"
                     buffer = ""
 
-            # Flush final buffer
-            if buffer.strip().endswith((".", "!", "?")):
+            # Flush remaining text even if model stops without punctuation.
+            if buffer.strip():
                 yield json.dumps({
                     "response": buffer,
                     "sources": sources,
                     "is_first_aid": True,
                     "condition_detected": condition,
                     "is_finished": False
-    }) + "\n"
+                }) + "\n"
 
             # ----------- FINALIZE -----------
             yield json.dumps({

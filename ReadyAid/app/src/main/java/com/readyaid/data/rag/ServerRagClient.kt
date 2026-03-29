@@ -3,6 +3,7 @@ package com.readyaid.data.rag
 import android.util.Log
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.readyaid.BuildConfig
 import com.readyaid.data.profile.UserProfile
 import java.io.OutputStreamWriter
 import java.net.HttpURLConnection
@@ -18,7 +19,8 @@ import java.io.InputStreamReader
 class ServerRagClient @Inject constructor() : RagClient {
 
     private val gson = Gson()
-    private val BASE_URL = "http://10.0.2.2:8000" // Emulator
+    // Uses Gradle-configured endpoint so emulator/device URLs can be changed without code edits.
+    private val baseUrl = BuildConfig.RAG_BASE_URL.removeSuffix("/")
 
     private data class ProfilePayload(
         val age: Int?,
@@ -34,7 +36,7 @@ class ServerRagClient @Inject constructor() : RagClient {
 
     override fun ask(query: String, profile: UserProfile): Flow<RagResponse> = flow {
         try {
-            val url = URL("$BASE_URL/ask")
+            val url = URL("$baseUrl/ask")
             val connection = url.openConnection() as HttpURLConnection
 
             connection.requestMethod = "POST"
@@ -72,8 +74,19 @@ class ServerRagClient @Inject constructor() : RagClient {
             }
 
         } catch (e: Exception) {
-            Log.e("ServerRagClient", "Stream Exception: ${e.message}")
-            emit(RagResponse("Connection failed. Ensure server is running.", isFinished = true, conditionDetected = "error"))
+            Log.e("ServerRagClient", "Stream Exception: ${e.message}", e)
+            val guidance = if (BuildConfig.RAG_BASE_URL.contains("10.0.2.2")) {
+                "If using a physical device, update RAG_BASE_URL to your laptop IP."
+            } else {
+                "Ensure backend is running and reachable from this network."
+            }
+            emit(
+                RagResponse(
+                    "Connection failed to ${BuildConfig.RAG_BASE_URL}. $guidance",
+                    isFinished = true,
+                    conditionDetected = "error"
+                )
+            )
         }
     }.flowOn(Dispatchers.IO)
 }

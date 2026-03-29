@@ -33,7 +33,7 @@ public final class AppDatabase_Impl extends AppDatabase {
   @Override
   @NonNull
   protected SupportSQLiteOpenHelper createOpenHelper(@NonNull final DatabaseConfiguration config) {
-    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(2) {
+    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(3) {
       @Override
       public void createAllTables(@NonNull final SupportSQLiteDatabase db) {
         db.execSQL("CREATE TABLE IF NOT EXISTS `user_profile` (`id` INTEGER NOT NULL, `fullName` TEXT NOT NULL, `age` INTEGER NOT NULL, `bloodType` TEXT NOT NULL, `conditions` TEXT NOT NULL, `allergies` TEXT NOT NULL, `medications` TEXT NOT NULL, `medicalHistory` TEXT NOT NULL, `emergencyContact1Name` TEXT NOT NULL, `emergencyContact1Phone` TEXT NOT NULL, `emergencyContact2Name` TEXT, `emergencyContact2Phone` TEXT, `profileCompleted` INTEGER NOT NULL, `disclaimerAccepted` INTEGER NOT NULL, PRIMARY KEY(`id`))");

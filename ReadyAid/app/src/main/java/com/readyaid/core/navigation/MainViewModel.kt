@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.readyaid.data.profile.UserProfileDao
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
@@ -26,13 +27,18 @@ class MainViewModel @Inject constructor(
 
     init {
         viewModelScope.launch {
-            userProfileDao.getUserProfile().collect { profile ->
-                _appState.value = when {
-                    profile?.profileCompleted != true -> AppState.Onboarding
-                    profile.disclaimerAccepted != true -> AppState.Disclaimer
-                    else -> AppState.Home
+            userProfileDao.getUserProfile()
+                .catch {
+                    // If DB read fails, fail open to onboarding instead of hanging on launch.
+                    _appState.value = AppState.Onboarding
                 }
-            }
+                .collect { profile ->
+                    _appState.value = when {
+                        profile?.profileCompleted != true -> AppState.Onboarding
+                        profile.disclaimerAccepted != true -> AppState.Disclaimer
+                        else -> AppState.Home
+                    }
+                }
         }
     }
 

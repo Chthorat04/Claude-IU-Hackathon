@@ -46,6 +46,7 @@ import com.readyaid.ui.components.ReadyAidLogo
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.*
 import android.util.Log
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -64,6 +65,7 @@ class ChatViewModel @Inject constructor(
     private val userDao: UserProfileDao,
     private val chatDao: ChatMessageDao
 ) : ViewModel() {
+    private var activeStreamJob: Job? = null
 
     private val _streamingMessage = MutableStateFlow<ChatMessage?>(null)
     private val _isTyping = MutableStateFlow(false)
@@ -100,6 +102,7 @@ class ChatViewModel @Inject constructor(
 
     fun sendMessage(query: String) {
         if (query.isBlank()) return
+        if (activeStreamJob?.isActive == true) return
 
         // Intercept CallEmergency intent
         val (intent, _) = IntentMapper.mapIntent(query)
@@ -113,7 +116,7 @@ class ChatViewModel @Inject constructor(
         
         _isTyping.value = true
 
-        viewModelScope.launch {
+        activeStreamJob = viewModelScope.launch {
             // 1. Save USER message to DB immediately
             chatDao.insertMessage(userMsg.toEntity())
             
@@ -167,6 +170,8 @@ class ChatViewModel @Inject constructor(
                 _streamingMessage.value = errorBotMsg
                 chatDao.insertMessage(errorBotMsg.toEntity())
                 _streamingMessage.value = null
+            } finally {
+                activeStreamJob = null
             }
         }
     }
